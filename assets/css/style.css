@@ -10,6 +10,8 @@
 body {
     font-family: Assistant, 'sans-serif';
     font-size: 300;
+    height: auto;
+    width: auto;
     color: #282828;
 }
 
@@ -27,6 +29,7 @@ h1, h2 {
     display: inline-block;
     flex-flow: wrap;
     justify-content: center;
+    margin-left: 30px;
     height: 100%;
     width: 300%;
     font-size: 250%;
@@ -125,3 +128,32 @@ nav {
 
     position: absolute;
 }
+
+/* about us section */
+
+#about-us h3 {
+    font-size: 200%;
+    text-align: center;
+    justify-content: center;
+    height: auto;
+    width: auto;
+}
+
+#about-us-container {
+    display: grid;
+    justify-content: center;    
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    margin: 10px;
+}
+
+.grid-item {
+    display: grid;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #f39d75b9;
+  }
