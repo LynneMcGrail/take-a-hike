@@ -9,4 +9,19 @@
 body {
     font-family: Assistant, 'noto sans';
     font-size: 300;
+    color: #282828;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: Assistant, 'Noto Sans';
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #181818;
+}
+
+#logo {
+    display: flex;
+    font-size: 300%;
 }
