@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Noto+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
-    font-family: Assistant;
+    font-family: Assistant, 'noto sans';
+    font-size: 300;
 }
