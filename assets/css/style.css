@@ -1,13 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Noto+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
 
 * {
-    margin: 0;
+    box-sizing: border-box;
     padding: 0;
+    margin: 0;
+    background-color: #fff;
     border: none;
 }
 
 body {
-    font-family: Assistant, 'noto sans';
+    font-family: Assistant, 'sans-serif';
     font-size: 300;
     color: #282828;
 }
@@ -15,13 +17,86 @@ body {
 /* headings and logo */
 
 h1, h2 {
-    font-family: Assistant, 'Noto Sans';
+    font-family: Assistant, 'sans-serif';
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     color: #181818;
+    padding: 20px;
 }
 
 #logo {
-    display: flex;
-    font-size: 300%;
+    display: inline-block;
+    flex-flow: wrap;
+    justify-content: center;
+    height: 100%;
+    width: 300%;
+    font-size: 250%;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    display: inline;
+    flex-flow: wrap-reverse;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-left: 100px;
+    padding: 20px;
+}
+
+nav {
+    display: block;
+    width: 100%;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #282828
+}
+
+.active {
+    border-bottom: 1px solid #282828;
+}
+
+/* hero image */
+
+#hero-outer {
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#hero-image {
+    height: 800px;
+    width: 100%;
+    background: url('../images/hero-image.jpg') no-repeat center center;
+
+    /* animates zoom effect on loading page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for hero image */
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+    
 }
