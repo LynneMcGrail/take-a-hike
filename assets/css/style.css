@@ -162,6 +162,7 @@ nav {
   /* upcoming events */
 
   #events {
+    color: #faf9f6;
     background-image: url('../images/carrauntoohill-bg-img.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -169,3 +170,20 @@ nav {
     width: 100%;
     overflow: hidden;
   }
+
+  #events h2 {
+    color: #faf9f6;
+    font-size: large;
+  }
+
+  #events div {
+    color: #faf9f6;
+    background-color: rgba(0, 0, 0, 0.415);
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding: 10px 0 0 10px;
+    text-align: center;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+}
