@@ -1,108 +1,117 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![CI logo]('https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png')
 
-Welcome Lynne McGrail,
+# Take a Hike - Hiking Club #
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+# Goals for this project #
+#### Welcome to Take a Hike Hiking Club website. This club provides an outlet for all age groups to get involved and give hiking a go. ####
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+#### This site provides some information about the club, basic information about the benefits of hiking and the planned club events to show a potential member the benefits of joining the group. It also allows the person to make contact with the club easily through social media or directly via the contact form on the site. ####
+_________
 
-## Gitpod Reminders
+** insert image here of desktop / tablet / mobile views **
+_________
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+# Table of Contents
+## UX ##
+User Goals
+_________
+- Visually appealing, colours used, including images.
+- Easily navigated around.
+- Quality and valuable content.
+- Easily found contact details.
+- Form to directly contact the club.
 
-`python3 -m http.server`
+User Stories
+_________
+- As a user, I want to know that the club is well established.
+- As a user, I want the website to give me information about what is involved in hiking.
+- As a user, I want to be able to easily contact the club.
+- As a user, I want to be able to make contact with the club via several different methods, i.e. contact form, social media.
+- As a user, I want to be able to easily navigate through the website.
+- As a user, I want to know where the club is based.
+- As a user, I want to know what events are taking place.
 
-A blue button should appear to click: _Make Public_,
+## Site owners Goals ##
+__________
+- Promote the club.
+- Increase the number of members.
+- Increase rankings on search engines.
 
-Another blue button should appear to click: _Open Browser_.
+## Requirements ##
+__________
+- Easy to navigate on various screen sizes.
+- Clear information on the services provided.
+- Keep the user interested with small bits of information to make them want to engage with the club.
+- Simple methods of contacting the club.
+- Visually inviting so users do not leave.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Expectations ##
+__________
+- I expect to know if a form has been submitted properly and if items are not filled in, to be prompted -e.g. error message if email address required and not input properly.
+- I expect all links to social media sites to be opened in a new tab.
+- I expect all navigation links to work correctly.
+- I expect screen size not to affect the quality of the website.
+- I expect all information to be correct and accurate.
 
-A blue button should appear to click: _Make Public_,
+** insert ** Back to Top button 
 
-Another blue button should appear to click: _Open Browser_.
+## Design Choices ##
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Fonts ###
+_______
+In order to move away from the basic fonts available, I have used Google Fonts to find a text that best suits the feel of the website. For the main text I have chosen Assistant as I feel it is has a sharp, simple and easy to read look. I decided to use sans-serif as the back-up font option. This font is complimentary to Assistant.
 
-To log into the Heroku toolbelt CLI:
+Icons 
+_______
+I will used some icons for my website from the Font Awesome library. These icons will only be used where there is no explination needed to their meaning, social media links, contact links and a hamburger for navigational links on smaller devices. All icons used will be styled and in keeping with the appearance of the website.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Colours
+_______
+I have used Colourmind to help in the selection of my colour scheme. I selected two colours that I wanted the reast of my pallet to fit with and then used the generator to create the pallet, it can be seen here (insert link). Need to test the contrast of the colours in WebAIM, (state pass or fail here). (Include any adjustments made).
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+I will explain the uses of the varius colours below, starting from left to right. 
 
-------
+Colour Pallet (insert image of colours) 
+_______
 
-## Release History
+- #C9F4F4 - This colour will be used as a background colour for the navigation menu when items are hovered over.
+- #13FFFF - This colour will be used as a background colour for text sections overlaying images with an appropriate text colour for readability.
+- #F39D75 - This colour will be used on the contact form for added styling.
+- #E36D50 - This colour will be used for styling the icons in the footer section 
+- #3C3D4A - This colour will be used as a text colour and in any styling background where required.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Structure ##
+______
+(insert bootstrap breakpoints here)
+(media queries etc)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+## Wireframes ##
+______
+I have used Balsamic (link) to develop my wireframes for my website. I initially created the mobile version and then the wireframes and then scalled it up for both tablet and desktop. Because a requirement is to give little but quality information to the user to make them want to engage with the club, a one-page website is used. This gets the user through the content and quickly to the contact form and details via scrolling or directly via the navigation bar.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+The wireframes are below:
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+(insert desktop wireframe here)
+(insert tablet wireframe here)
+(insert mobile wireframe here)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+# Features #
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## Navigation Bar ##
+______
+The navigation bar is fully responsive to allow for various screen sizes. It includes links to manover around the site easily and the club logo which doubles as a link back to the home screen.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+(insert screenshots here)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+## Landing Page ##
+_____
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+The landing page image chosen gives the user instant knowledge of what is involved in the hiking club, and with added zoom animation grabs their attention to the site.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+The text gives instant information to the user on what the club is.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+(insert screenshot here)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+## About Section ##
+_______
+This welcomes the site user and gives an insight into what the club ethos is, so the potential member gets an idea of what the group they would be joining involves. 
