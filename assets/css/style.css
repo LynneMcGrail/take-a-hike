@@ -281,6 +281,11 @@ footer {
 
 /* gallery */
 
+.container-grid {
+    display: block;
+    overflow: visible;
+}
+
 #photos {
     clear: both;
     line-height: 0;
@@ -289,7 +294,9 @@ footer {
 }
 
 #photos > img {
-    width: 100%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
 }
 
 /* Media queries */
