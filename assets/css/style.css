@@ -190,14 +190,15 @@ nav {
     }
 
     .container-1 div {
-        color: rgb(0, 0, 0);
+        color: #000;
         border: 1px #000 solid;
         padding:10px 10px;
         text-align: center;
+        letter-spacing: 1px;
         justify-content: space-around;
         margin-left: 2px;
         margin-bottom: 10px;
-        background-color: rgba(19, 255, 255, .65);
+        background-color: #f39d75b9;
       }
       
       .box-1 {
@@ -219,6 +220,7 @@ nav {
         flex:1;
         order: 4;
       }
+    }
 
   /* upcoming events */
 
@@ -230,6 +232,11 @@ nav {
     background-position: center;
     width: 100%;
     overflow: hidden;
+  }
+
+  #events h1 {
+    color: #000;
+    background-color: #fff;
   }
 
   #events h2 {
