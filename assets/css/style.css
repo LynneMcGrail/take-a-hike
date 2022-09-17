@@ -133,7 +133,7 @@ nav {
 /* about us section */
 
 #about-us h3 {
-    font-size: 200%;
+    font-size: 220%;
     text-align: center;
     justify-content: center;
     height: auto;
@@ -147,6 +147,7 @@ nav {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
+    padding-right: 10px;
     margin: 10px;
 }
 
@@ -160,95 +161,64 @@ nav {
     background-color: #f39d75b9;
   }
 
-  /* why join us */
-
-  #span1 {
-    display: inline-flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
-    text-align: center;
-    border: 1px solid;
-    width: auto;
-    height: auto;
-    margin: 0;
-  }
-
-  #span2 {
-    display: inline-flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
-    text-align: center;
-    border: 1px solid;
-    width: auto;
-    height: auto;
-    margin: 0;
-  }
-
-  #span3 {
-    display: inline-flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
-    text-align: center;
-    border: 1px solid;
-    width: auto;
-    height: auto;
-    margin: 0;
-  }
-
-  #span4 {
-    display: inline-flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
-    text-align: center;
-    border: 1px solid;
-    width: auto;
-    height: auto;
-    margin: 0;
-  }
-
-  #health-benefits div {
-    display: flexbox;
-    flex-direction: column;
-    justify-content: space-around;
-    text-align: center;
-  }
-
-  #health-benefits h2 {
-    font-size: 1.5rem;
-    letter-spacing: 4px;
+  .flex-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 2px;
+    margin-right: 2px;
   }
 
-  #health-benefits p {
-    font-size: 0.8em;
-    line-height: 1.8em;
-    margin: 30px auto;
+  /* why join us */
+
+  #health-benefits {
     text-align: center;
-    box-sizing: border-box;
   }
 
-  .flex-container {
-    border: 1px solid #282828;
-    display: inline-block;
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: space-between;
-  }
+  @media(min-width:468px){
+    .container-1{
+      display:flex;
+      /*
+      align-items:flex-start;
+      align-items:flex-end;
+      align-items:center;
+      
+      flex-direction:column;
+      */
+    }
 
-  /* health benefits */
+    .container-1 div {
+        color: rgb(0, 0, 0);
+        border: 1px #000 solid;
+        padding:10px 10px;
+        text-align: center;
+        justify-content: space-around;
+        margin-left: 2px;
+        margin-bottom: 10px;
+        background-color: rgba(19, 255, 255, .65);
+      }
+      
+      .box-1 {
+        flex:1;
+        order:1;
+      }
+      
+      .box-2 {
+        flex:1;
+        order:2;
+      }
+      
+      .box-3 {
+        flex:1;
+        order: 3;
+      }
 
-
-
+      .box-4 {
+        flex:1;
+        order: 4;
+      }
 
   /* upcoming events */
 
@@ -349,3 +319,4 @@ footer {
         height: 1200px;
         margin: 0 auto;
     }
+}
