@@ -291,7 +291,7 @@ footer {
 
 .container-grid {
     display: block;
-    overflow: visible;
+    overflow: hidden;
 }
 
 #photos {
@@ -355,3 +355,14 @@ footer {
         height: 1200px;
         margin: 0 auto;
     }
+
+    #photos {
+        column-count: 3;
+    }
+
+/* For small screen size 800px and down */
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
+}
