@@ -25,6 +25,14 @@ body {
     }
     */
 
+    header{
+        display: flex;
+    }
+
+    #menu{
+        display: flex;
+    }
+
 h1, h2 {
     font-family: Assistant, 'sans-serif';
     text-transform: uppercase;
@@ -37,9 +45,8 @@ h1, h2 {
     display: inline-block;
     flex-flow: wrap;
     justify-content: center;
-    margin-left: 30px;
     height: 100%;
-    width: 300%;
+
     font-size: 250%;
 }
 
@@ -48,23 +55,22 @@ h1, h2 {
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
+    list-style: none;
 }
 
 #menu, #logo {
-    line-height: 75px;
+ white-space: nowrap;
 }
 
 #menu li {
-    display: inline;
-    flex-flow: wrap-reverse;
-    justify-content: space-between;
-    list-style-type: none;
-    margin-left: 100px;
-    padding: 20px;
+    margin-left: 1.5rem;
+  
 }
 
 nav {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
 }
 
@@ -74,12 +80,12 @@ nav {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #282828;
+    
     background-color: rgba(201, 244, 244, 0.65);
 }
 
 .active {
-    border-bottom: 1px solid #282828;
+    /* border-bottom: 1px solid #282828; */
 }
 
 /* hero image and cover text */
@@ -432,7 +438,6 @@ footer {
 @media screen and (max-width: 1200px) {
     #about {
     width: 65%;
-    height: 1200px;
     margin: 0 auto;
     }
 }
@@ -457,11 +462,9 @@ footer {
 /* For medium screen sizes from 950px wide and down */
 @media  screen and (max-width: 950px) {
     #menu {
-        clear: left;
+       
         display: flex;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
+       
     }
 }
 
@@ -471,7 +474,6 @@ footer {
 
     #about {
         width: 90%;
-        height: 1200px;
         margin: 0 auto;
     }
 
