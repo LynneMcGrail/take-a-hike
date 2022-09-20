@@ -436,6 +436,13 @@ footer {
 
 /* gallery */
 
+#gallery h1 {
+    color: #000;
+    background-color: #fff;
+    text-align: center;
+    align-items: center;
+}
+
 .container-grid {
     display: block;
     overflow: hidden;
