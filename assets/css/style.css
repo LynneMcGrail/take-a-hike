@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -17,19 +21,19 @@ body {
 
 /* headings and logo */
 
-/* header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 999999;
+    /* header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 999999;
     }
-    */
+        */
 
-    header{
+    header {
         display: flex;
     }
 
-    #menu{
+    #menu {
         display: flex;
     }
 
@@ -47,7 +51,8 @@ h1, h2 {
     justify-content: center;
     height: 100%;
 
-    font-size: 250%;
+    font-size: 220%;
+    color: rgba(243, 157, 117, 0.9);
 }
 
 /* navigation links */
@@ -56,6 +61,7 @@ h1, h2 {
     font-size: 110%;
     letter-spacing: 4px;
     list-style: none;
+    padding-top: 0.5rem;
 }
 
 #menu, #logo {
@@ -64,7 +70,6 @@ h1, h2 {
 
 #menu li {
     margin-left: 1.5rem;
-  
 }
 
 nav {
@@ -80,13 +85,15 @@ nav {
 }
 
 #menu a:hover {
-    
     background-color: rgba(201, 244, 244, 0.65);
 }
 
+/*
 .active {
-    /* border-bottom: 1px solid #282828; */
+    /* border-bottom: 1px solid #282828; 
 }
+*/
+
 
 /* hero image and cover text */
 
@@ -172,7 +179,7 @@ nav {
     padding-bottom: 30px;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: rgba(243, 157, 117, 0.725);
+    background-color: rgba(243, 157, 117, 0.5);
   }
 
   .flex-container {
@@ -189,6 +196,20 @@ nav {
 
   #health-benefits {
     text-align: center;
+  }
+
+  #health-benefits h3 {
+    font-size: 220%;
+  }
+
+  .grid-item2 {
+    display: grid;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(201, 244, 244, 0.65);
   }
 
   @media(min-width:468px) {
@@ -212,7 +233,7 @@ nav {
         justify-content: space-around;
         margin-left: 2px;
         margin-bottom: 10px;
-        background-color: rgba(243, 157, 117, 0.725);
+        background-color: rgba(243, 157, 117, 0.5);
       }
       
       .box-1 {
@@ -273,6 +294,7 @@ nav {
 }
 
 /* contact us */
+
 #contactus {
     width: 100%;
     height: 100%;
@@ -353,7 +375,7 @@ h2:after {
 }
 
 .field:hover {
-    background-color: rgba(243, 157, 117, 0.725);
+    background-color: rgba(247, 213, 197, 0.725);
 }
 
 .field:focus {
@@ -379,7 +401,7 @@ h2:after {
 }
 
 .btn:hover {
-    background-color: rgba(243, 157, 117, 0.725);
+    background-color: rgba(247, 213, 197, 0.725);
 }
 
 @media screen and (max-width: 880px) {
@@ -485,5 +507,20 @@ footer {
 @media screen and (max-width: 800px) {
     #photos {
         column-count: 2;
+    }
+}
+
+/* mobile screen size 600px and up */
+
+@media screen and (min-width: 600px) {
+    p {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    p {
+        font-size: 1.5rem;
+        line-height: 1.5;
     }
 }
