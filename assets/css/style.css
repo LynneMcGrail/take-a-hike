@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
 
 html {
+    scroll-padding-top: 10px;
     scroll-behavior: smooth;
 }
 
@@ -21,13 +22,13 @@ body {
 
 /* headings and logo */
 
-    /* header {
+    header {
         position: fixed;
         top: 0;
         width: 100%;
         z-index: 999999;
+        background-color: #fff;
     }
-        */
 
     header {
         display: flex;
@@ -227,11 +228,12 @@ nav {
     .container-1 div {
         color: #000;
         border: 1px #000 solid;
-        padding:10px 10px;
+        padding: 10px 10px;
         text-align: center;
         letter-spacing: 1px;
         justify-content: space-around;
-        margin-left: 2px;
+        margin-left: 10px;
+        margin-right: 10px;
         margin-bottom: 10px;
         background-color: rgba(243, 157, 117, 0.5);
       }
