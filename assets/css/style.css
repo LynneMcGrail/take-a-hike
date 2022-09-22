@@ -575,6 +575,11 @@ footer {
     object-fit: cover;
 }
 
+img {
+    height: 425px;
+    width: 500px;
+}
+
 /* Media queries */
 
 /* For larger to medium screens size from 1200px wide and down */
@@ -741,5 +746,19 @@ footer {
   @media screen and (max-width: 768px) {
     .container-1 {
         grid-template-columns: 1fr;
+    }
+}
+
+/* */
+@media screen and (max-width: 1000px) {
+    #photos {
+        column-count: 2;
+    }
+}
+
+/* */
+@media screen and (min-width: 1500px) {
+    #photos {
+        column-count: 4;
     }
 }
