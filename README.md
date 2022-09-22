@@ -4,39 +4,79 @@
 
 ## Goals for this project ##
 ________
-#### Take a Hike Hiking Club is a website designed to introduce local people to the club which provides an outlet for all age groups to get involved and give hiking a go. The website provides some information about the club, basic information about the benefits of hiking and the upcoming hiking events to show a potential member the benefits of joining the group. It also allows the person to make contact with the club easily through social media links or directly via the contact form on the site. ####
+#### Take a Hike is a website designed to introduce local people to the hiking club which provides an outlet for a range of age groups, from young adults (16+) up. It was set up during the pandemic to encourage people to move more, meet new people, explore more, and maybe for some, to take up a new activity. The website provides information about the club, information about the benefits of hiking, the upcoming hiking events to show a potential member the benefits of joining the group. It also allows the person to make contact with the club easily through social media links or directly via the contact form on the site. ####
 
 * [Here is a link to the final project](https://lynnemcgrail.github.io/take-a-hike/)
+
+## FINAL DESIGN
+
+![Final project image home page] INSERT IMAGE LINK e.g. (testing/responsive-test.png)
+
+## INITIAL IDEA CONCEPT
+
+My initial idea for the project was to create an informative and welcoming website about the activity of hiking in Ireland. My target audience is anyone who is interested in the activity itself or seeking to benefit their health and well-being, whilst meeting new people and establishing social connections.
+This can be any person over the age of 16, any gender and any experience level. The site is safe for all age ranges from children to adults who want to learn about hiking in Ireland. I chose to make the site bright to display the information clearly and so people could navigate it easily.
+
+* The Features I wanted the project to have are:
+    * To make the site easy to read.
+    * To have a light colour scheme (white background, dark text colour and complimenting bright colours throughout to represent nature which also tie in with the colours in the hero image).
+    * To have an easy to navigate "Nav Bar".
+    * Look fun and inviting with images, and to be educational on the health benefits.
+    * To be easy to make contact with the club through social media or the contact form on the site.
 _________
 
-** insert image here of desktop / tablet / mobile views **
-_________
+#
+#
+## Table of Contents
+- [UX/UI](#uxui)
+    * [USERSTORIES](#user-stories)
+- [WIREFRAMES](#wireframes)
+  * [FEATURES](#features)
+  * [DESIGN](#design)
+- [TESTING](#testing)
+  * [DEVICES](#devices)
+  * [VALIDATORS](#validators)
+  * [LIGHTHOUSE](#lighthouse)
+  * [ACCESSIBILITY](#accessibility)
+- [SOLVED BUGS AND ERRORS](#solved-bugs-and-errors)
+  * [UNSOLVED BUGS AND ERRORS](#unsolved-bugs-and-errors)
+  * [FUNCTIONALITY](#functionality)
+- [TECHNOLOGIES USED](#technologies-used)
+  * [PROGRAMS USED](#programs-used)
+- [DEPLOYMENT](#deployment)
+  * [REMOTE](#remote-deployment)
+  * [HOW TO FORK A REPOSITORY](#how-to-fork-a-repository)
+  * [HOW TO CLONE A REPOSITORY](#how-to-clone-a-repository)
+  * [HOW TO MAKE A LOCAL CLONE](#how-to-make-a-local-clone)
 
-# Table of Contents
-## UX ##
-User Goals
-_________
-- Visually appealing, colours used, including images.
-- Easily navigated around.
-- Quality and valuable content.
-- Easily found contact details.
-- Form to directly contact the club.
+- [CREDITS](#credits-and-references)
+  * [IMAGES AND INFORMATION](#images-and-information)
+  * [CODE](#code)
+- [ACKNOWLEDGEMENTS](#acknowledgements)
 
-User Stories
-_________
-- As a user, I want to know that the club is well established.
-- As a user, I want the website to give me information about what is involved in hiking.
-- As a user, I want to be able to easily contact the club.
-- As a user, I want to be able to make contact with the club via several different methods, i.e. contact form, social media.
-- As a user, I want to be able to easily navigate through the website.
-- As a user, I want to know where the club is based.
-- As a user, I want to know what events are taking place.
+#
+#
+# UX/UI
+* This website was created to demonstrate my knowledge of HTML and CSS and to provide users with visual and educational content.
+* The website should be easy to navigate.
+* The website should be easy to read, and images should be clear without becoming stretched or squashed.
 
-## Site owners Goals ##
-__________
-- Promote the club.
-- Increase the number of members.
-- Increase rankings on search engines.
+Site Goals:
+* To showccase my skills in HTML and CSS.
+* To provide users with an easy to understand and easy to navigate website.
+* To provide users with enough information to decide if they'd like to join the club.
+* To make the site easily accessible for all users.
+
+## User Stories 
+
+* As a user, I want to understand the main purpose of the website.
+* As a user, know that the club is well established.
+* As a user, I want the website to give me the health benefits of hiking.
+* As a user, I want to be able to navigate the site with an easy to see and read nav bar.
+* As a user, I want the site to be attractive.
+* As a user, I want to know what events are taking place.
+* As a user, I want to see images related to the hiking group.
+* As a user, I want to be able to easily contact the club.
 
 ## Requirements ##
 __________
@@ -44,13 +84,13 @@ __________
 - Clear information on the services provided.
 - Keep the user interested with small bits of information to make them want to engage with the club.
 - Simple methods of contacting the club.
-- Visually inviting so users do not leave.
+- Visually inviting and readable, so users do not leave.
 
 ## Expectations ##
 __________
 - I expect to know if a form has been submitted properly and if items are not filled in, to be prompted -e.g. error message if email address required and not input properly.
 - I expect all links to social media sites to be opened in a new tab.
-- I expect all navigation links to work correctly.
+- I expect all navigation links to work correctly and open in the same tab, but navigate to the section selected in the nav bar.
 - I expect screen size not to affect the quality of the website.
 - I expect all information to be correct and accurate.
 
