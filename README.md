@@ -1,11 +1,12 @@
-![CI logo]('https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png')
+# PORTFOLIO PROJECT - 1 #
 
-# Take a Hike - Hiking Club #
+# Take a Hike #
 
-# Goals for this project #
-#### Welcome to Take a Hike Hiking Club website. This club provides an outlet for all age groups to get involved and give hiking a go. ####
+## Goals for this project ##
+________
+#### Take a Hike Hiking Club is a website designed to introduce local people to the club which provides an outlet for all age groups to get involved and give hiking a go. The website provides some information about the club, basic information about the benefits of hiking and the upcoming hiking events to show a potential member the benefits of joining the group. It also allows the person to make contact with the club easily through social media links or directly via the contact form on the site. ####
 
-#### This site provides some information about the club, basic information about the benefits of hiking and the planned club events to show a potential member the benefits of joining the group. It also allows the person to make contact with the club easily through social media or directly via the contact form on the site. ####
+* [Here is a link to the final project](https://lynnemcgrail.github.io/take-a-hike/)
 _________
 
 ** insert image here of desktop / tablet / mobile views **
