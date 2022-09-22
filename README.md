@@ -94,7 +94,70 @@ __________
 - I expect screen size not to affect the quality of the website.
 - I expect all information to be correct and accurate.
 
-** insert ** Back to Top button 
+## Wireframes 
+
+* I used [Balsamic](https://balsamiq.com/) to develop my wireframes for my website. I initially created the mobile version, and then scalled it up for both tablet and desktop. Because one of my requirement is to give quality information to the user to make them want to engage with the club, a one-page website is used. This guides the user through the content and quickly to the contact form and details via scrolling or directly via the navigation bar.
+
+The wireframes can be viewed [here]
+(insert desktop wireframe here)
+(insert tablet wireframe here)
+(insert mobile wireframe here)
+
+## Features 
+* The site consists of:
+    * 5 main sections on one page, `HOME, ABOUT, UPCOMING EVENTS, GALLERY, CONTACT US`
+    * The page contains a `HEADER (TITLE)`, `NAVBAR`, `MAIN CONTENT (TEXT AND IMAGES)` and `FOOTER (SOCIAL MEDIA ICONS/LINKS`
+* Navigation bar:
+    * The navigation bar is fully responsive to allow for various screen sizes. It includes links to maneuver through the site easily with each menu option navigating to it's particular section.
+(insert screenshots here)
+* <img src="_insert screenshot" width=400>
+
+* Footer:
+* <img src="_insert screenshot" width=400>
+
+* Layout and content:
+    * The Header section will have some introductory text and a landing image.
+    * The About section follows with an introduction to the club and a 'Why Join Us' section which provides valuable information to the user about the benefits of hiking. 
+    * The Gallery will have multiple images of the club's members, to encourage the site user to join.
+    * The Contact Us section will have a form to include first name, last name, email address and a submit button
+    * The Thank-you page with have some thank-you text and a thumbs up logo 
+    # (* ^ To be added ^ *) # 
+
+* Hover effect on links and social media icons:
+    * Indicates to the user the location of the mouse whilst navigating the menu
+    * A straight underline helps the user to know which page they are currently on
+    * <img src=" ^ insert screen grab ^ " width=400>
+
+* Contact Form:
+    * Form validation requests the user to input the correct information in the input fields,
+      This avoids the user sending illegible text/email.
+    * <img src=" ^ insert screen grab here ^ " width=400>
+
+## DESIGN
+* Color Scheme:
+    * With being a website that is both informative and fun, the color scheme chosen were colourful and bright to reflect nature and being outdoors. Bright background colours were used and then colourful elements to make sections 'pop' on the site to provide an appealing user experience. The foreground text and images will be darker and clear against the background so the site is readable. (shade of black) (See hex colours below)
+    * The difference between the lighter background and darker text brings contrast to the site.
+  
+<img src=" ^ insert here ^ " width=200>
+<img src=" ^ insert here ^ " width=200>
+<img src=" ^ insert here ^ " width=200>
+
+## Landing Page 
+* The landing page image chosen gives the user instant association that the club is about hiking, and with added zoom animation, immediately grabs their attention to the site.
+* The text gives instant information to the user on what the club is.
+* (insert screenshot here)
+
+## About Section 
+* This section welcomes the site user and gives an insight into what the club ethos is, so the potential member gets a feel for the group they would be joining. 
+
+## Images
+* I sourced several images for the hero image, upcoming events and members gallery
+* There are a total of 14 images across the site.
+* All images have been compressed through `Tinypng.com`
+* None of the images used have been pushed past the pixel limit in order to prevent image distortion
+
+* TYPOGRAPHY
+    * The fonts used for my website is "Gemunu Libre" and "Monserrat". The font is imported from Google Fonts
 
 ## Design Choices ##
 
@@ -125,34 +188,3 @@ _______
 ______
 (insert bootstrap breakpoints here)
 (media queries etc)
-
-## Wireframes ##
-______
-I have used Balsamic (link) to develop my wireframes for my website. I initially created the mobile version and then the wireframes and then scalled it up for both tablet and desktop. Because a requirement is to give little but quality information to the user to make them want to engage with the club, a one-page website is used. This gets the user through the content and quickly to the contact form and details via scrolling or directly via the navigation bar.
-
-The wireframes are below:
-
-(insert desktop wireframe here)
-(insert tablet wireframe here)
-(insert mobile wireframe here)
-
-# Features #
-
-## Navigation Bar ##
-______
-The navigation bar is fully responsive to allow for various screen sizes. It includes links to manover around the site easily and the club logo which doubles as a link back to the home screen.
-
-(insert screenshots here)
-
-## Landing Page ##
-_____
-
-The landing page image chosen gives the user instant knowledge of what is involved in the hiking club, and with added zoom animation grabs their attention to the site.
-
-The text gives instant information to the user on what the club is.
-
-(insert screenshot here)
-
-## About Section ##
-_______
-This welcomes the site user and gives an insight into what the club ethos is, so the potential member gets an idea of what the group they would be joining involves. 
