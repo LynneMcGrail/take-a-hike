@@ -241,7 +241,7 @@ nav a:hover {
 @media screen and (max-width: 500px) {
     .drawer {
         width: 100%;
-        height: 50%;
+        height: 40%;
     }
 }
 
