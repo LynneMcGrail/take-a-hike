@@ -23,9 +23,8 @@ This can be any person over the age of 16, any gender and any experience level. 
     * To have an easy to navigate "Nav Bar".
     * Look fun and inviting with images, and to be educational on the health benefits.
     * To be easy to make contact with the club through social media or the contact form on the site.
-_________
 
-#
+
 #
 ## Table of Contents
 - [UX/UI](#uxui)
