@@ -167,23 +167,39 @@
           <img src="assets/images/hiking12.jpg" alt="two hikers holding hands while hiking">
         </div>
     </section>
-
+    <!-- contact us section -->
     <section id="contactus">
-        <div id="joinus">
-            <div class="container">
-                <div class="contact-box">
-                    <div class="left"></div>
-                    <div class="right">
-                        <h2>Contact Us:</h2>
-                        <input type="text" class="field" placeholder="Your Name">
-                        <input type="email" class="field" placeholder="Your Email" name="email" required>
-                        <textarea class="field area" placeholder="Message"></textarea>
-                        <button class="btn">Submit</button>
-                    </div>
-                </div>
+        <main class="form-section">
+            <div>
+                <section>
+                    <form action="thankyou.html" method="GET">
+                        <h2>Contact us to find out more:</h2><br>
+                        <label for="first-name">
+                        <input id="first-name" type="text" name="first_name" placeholder="First Name" required></label>
+                        <label for="last-name">
+                        <input id="last-name" type="text" name="last_name" placeholder="Last Name" required></label>
+                        <label for="email">
+                        <input id="email" type="email" name="email_address" placeholder="Email Address" required></label>
+                        <h2>Where do you prefer to hike?</h2>
+                        <div class="radio-pair">
+                            <input id="mountains" type="radio" name="what-style" value="moutains" required>
+                            <label for="mountains">Mountains</label>
+                        </div>
+                        <div class="radio-pair">
+                            <input id="trails" type="radio" name="what-style" value="trails">
+                            <label for="trails">Trails</label>
+                        </div>
+                        <div class="radio-pair">
+                            <input id="both" type="radio" name="what-style" value="both">
+                            <label for="both">Both</label>
+                        </div>
+                        <input id="button" type="submit" value="GO!">
+                    </form>
+                </section>
             </div>
-        </div>
+        </main>
     </section>
+    <!-- footer section with social media links -->
     <footer>
         <ul class="social-networks">
             <li>
