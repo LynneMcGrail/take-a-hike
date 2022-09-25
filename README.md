@@ -3,7 +3,7 @@
 # Take a Hike #
 
 ## Goals for this project ##
-________
+#
 #### Take a Hike is a website designed to introduce local people to the hiking club which provides an outlet for a range of age groups, from young adults (16+) up. It was set up during the pandemic to encourage people to move more, meet new people, explore more, and maybe for some, to take up a new activity. The website provides information about the club, information about the benefits of hiking, the upcoming hiking events to show a potential member the benefits of joining the group. It also allows the person to make contact with the club easily through social media links or directly via the contact form on the site. ####
 
 * [Here is a link to the final project](https://lynnemcgrail.github.io/take-a-hike/)
@@ -54,7 +54,6 @@ This can be any person over the age of 16, any gender and any experience level. 
 - [ACKNOWLEDGEMENTS](#acknowledgements)
 
 #
-#
 # UX/UI
 * This website was created to demonstrate my knowledge of HTML and CSS and to provide users with visual and educational content.
 * The website should be easy to navigate.
@@ -66,8 +65,8 @@ Site Goals:
 * To provide users with enough information to decide if they'd like to join the club.
 * To make the site easily accessible for all users.
 
-## User Stories 
-
+## User Stories 
+#
 * As a user, I want to understand the main purpose of the website.
 * As a user, know that the club is well established.
 * As a user, I want the website to give me the health benefits of hiking.
@@ -78,7 +77,7 @@ Site Goals:
 * As a user, I want to be able to easily contact the club.
 
 ## Requirements ##
-__________
+#
 - Easy to navigate on various screen sizes.
 - Clear information on the services provided.
 - Keep the user interested with small bits of information to make them want to engage with the club.
@@ -86,7 +85,7 @@ __________
 - Visually inviting and readable, so users do not leave.
 
 ## Expectations ##
-__________
+#
 - I expect to know if a form has been submitted properly and if items are not filled in, to be prompted -e.g. error message if email address required and not input properly.
 - I expect all links to social media sites to be opened in a new tab.
 - I expect all navigation links to work correctly and open in the same tab, but navigate to the section selected in the nav bar.
@@ -128,8 +127,8 @@ The wireframes can be viewed [here]
     * <img src=" ^ insert screen grab ^ " width=400>
 
 * Contact Form:
-    * Form validation requests the user to input the correct information in the input fields,
-      This avoids the user sending illegible text/email.
+    * Form validation requests the user to input the correct information in the input fields, this avoids the user sending illegible text/email.
+    * Added thank you page for submitting the form so that the user is reassured that their message has been sent.
     * <img src=" ^ insert screen grab here ^ " width=400>
 
 ## DESIGN
