@@ -148,33 +148,29 @@ The wireframes can be viewed [here]
 ## About Section 
 * This section welcomes the site user and gives an insight into what the club ethos is, so the potential member gets a feel for the group they would be joining. 
 
-## Images
+## Images
 * I sourced several images for the hero image, upcoming events and members gallery
 * There are a total of 14 images across the site.
 * All images have been compressed through `Tinypng.com`
 * None of the images used have been pushed past the pixel limit in order to prevent image distortion
 
-* TYPOGRAPHY
-    * The fonts used for my website is "Gemunu Libre" and "Monserrat". The font is imported from Google Fonts
+## Typography
+* The fonts used on my site are "Assistant" and a backup of "Sans Serif", which is imported from Google Fonts. In order to move away from the basic fonts available, I have used Google Fonts to find a text that best suits the feel of the website. I felt the two fonts chosen, were complimentary of each other. 
 
-## Design Choices ##
-
-### Fonts ###
-_______
-In order to move away from the basic fonts available, I have used Google Fonts to find a text that best suits the feel of the website. For the main text I have chosen Assistant as I feel it is has a sharp, simple and easy to read look. I decided to use sans-serif as the back-up font option. This font is complimentary to Assistant.
+## Design Choices 
 
 Icons 
-_______
-I will used some icons for my website from the Font Awesome library. These icons will only be used where there is no explination needed to their meaning, social media links, contact links and a hamburger for navigational links on smaller devices. All icons used will be styled and in keeping with the appearance of the website.
+#
+I used some icons for my website from the Font Awesome library. These icons will only be used where there is no explination needed to their meaning, social media links, contact links and a hamburger for navigational links on smaller devices. All icons used will be styled and in keeping with the appearance of the website.
 
 Colours
-_______
+#
 I have used Colourmind to help in the selection of my colour scheme. I selected two colours that I wanted the reast of my pallet to fit with and then used the generator to create the pallet, it can be seen here (insert link). Need to test the contrast of the colours in WebAIM, (state pass or fail here). (Include any adjustments made).
 
 I will explain the uses of the varius colours below, starting from left to right. 
 
 Colour Pallet (insert image of colours) 
-_______
+#
 
 - #C9F4F4 - This colour will be used as a background colour for the navigation menu when items are hovered over.
 - #13FFFF - This colour will be used as a background colour for text sections overlaying images with an appropriate text colour for readability.
@@ -183,6 +179,81 @@ _______
 - #3C3D4A - This colour will be used as a text colour and in any styling background where required.
 
 ## Structure ##
-______
-(insert bootstrap breakpoints here)
-(media queries etc)
+#
+(insert w3 schools media queries etc)
+
+# Technologies used
+
+* HTML
+* CSS
+
+## Programmes Used
+* GIT
+  * For version control, committing and pushing to github. 
+* GITPOD 
+  * The IDE used to code this website.
+* GITHUB
+  * Used to create and store repositories, files and images pushed from gitpod.
+* Am I Responsive
+  * Used to test the responsiveness of the website at different screen sizes 
+* CHROME Developer Tools 
+  * For checking compatibility, troubleshooting and editing code live to see what changes needed to be made. 
+* Font Awesome 
+  * Used for the logo, section titles and social media link icons in the footer of each page. The font awesome script is also linked in the HTML file for these to be visible on the site. 
+  #
+  # DEPLOYMENT
+  ## Remote Deployment
+  (Assuming you have already cloned or forked)
+* This site was deployed using GitHub Pages, through the following the steps:
+
+1. Click on the `Settings` icon at the top of page in the navigation bar
+2. Scroll down until you see `Github Pages`
+3. There will be a message box saying "Check it out here". Click on the link to take you to the next page
+4. Here you will be greated with a form, Choose the repository `Take-a-Hike`
+5. Choose the branch in the drop down box, in this case `MAIN`
+6. Choose the directory in the next drop down box, in this case `Root`
+7. Then click `Save`
+8. It may take a few moments for the site to publish, but once live, the box at the top of the page with the site name will turn green and have a `Green` tick to the left of the link to the live site
+9. Another way to find the live site is to navigate to settings, on the left menu click on `pages` and this will get you to the same point.
+
+* These commands were used for version control during project:
+
+    * git add `example filename` - to add files before committing
+    * git commit -m `"example message"` - to commit changes to the local repository
+    * git push - to push all committed changes to the GitHub repository
+
+## HOW TO FORK A REPOSITORY:
+
+If you need to "FORK" a repository:
+
+1. If you have not already, login in to [GitHub](www.github.com) and go to https://github.com/LynneMcGrail/take-a-hike
+2. In the top right corner, click `Fork`
+3. The next page will be the forked version of https://github.com/LynneMcGrail/take-a-hike but in your own repository
+
+## HOW TO CLONE A REPOSITORY:
+
+If you need to make a clone of this repository:
+
+1. Fork the repository https://github.com/LynneMcGrail/take-a-hike using the steps above
+2. Above the file list, click `Code` (Usually green at the top right of the code window)
+3. Choose if you want to clone using HTTPS, SSH or GitHub CLI, then click the copy button to the right
+4. Open Git Bash
+5. Change the directory to where you want your clone to go (your own github)
+6. Type `git clone` and then paste the URL you copied in step 4
+7. Press `Enter` to create your clone
+
+## HOW TO MAKE A LOCAL CLONE
+
+If you need to make a local clone:
+
+1. If you have not already, login in to [GitHub](www.github.com) and go to https://github.com/LynneMcGrail/take-a-hike
+2. Under the repository name, above the list of files, click `Code`
+3. Here you will have two options, `Clone` or `Download` the repository
+4. You should close the repository using HTTPS, clicking on the icon to copy the link
+5. At this point, you can launch the `Gitpod workspace` or choose your own directory
+5. Open Git Bash
+6. Change the current working directory to the new location of where you want the cloned directory to be
+7. Type git clone and then paste the URL you copied in step 4
+8. Press Enter, to create your local clone to your chosen directory
+
+#
