@@ -6,10 +6,10 @@
 #
 #### Take a Hike is a website designed to introduce local people to the hiking club which provides an outlet for a range of age groups, from young adults (16+) up. It was set up during the pandemic to encourage people to move more, meet new people, explore more, and maybe for some, to take up a new activity. The website provides information about the club, information about the benefits of hiking, the upcoming hiking events to show a potential member the benefits of joining the group. It also allows the person to make contact with the club easily through social media links or directly via the contact form on the site. ####
 
-* [Here is a link to the final project](https://lynnemcgrail.github.io/take-a-hike/)
+* [Here is a link to the final project](https://lynnemcgrail.github.io/take-a-hike/) 
 
 ## Final Design
-![Final project image home page](assets/readme docs/testing:am-i-responsive-test.png)
+![Final project image home page](assets/readme%20docs/testing%3Aam-i-responsive-test.png)
 
 ## Initial Idea Concept
 My initial idea for the project was to create an informative and welcoming website about the activity of hiking in Ireland. My target audience is anyone who is interested in the activity itself or seeking to benefit their health and well-being, whilst meeting new people and establishing social connections.
