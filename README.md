@@ -204,19 +204,19 @@ Colour Pallet (insert image of colours)
   # DEPLOYMENT
   ## Remote Deployment
   (Assuming you have already cloned or forked)
-* This site was deployed using GitHub Pages, through the following the steps:
+* Following writing the code, then committing and pushing to GitHub, this project was deployed using GitHub through the following the steps:
 
-1. Click on the `Settings` icon at the top of page in the navigation bar
-2. Scroll down until you see `Github Pages`
-3. There will be a message box saying "Check it out here". Click on the link to take you to the next page
-4. Here you will be greated with a form, Choose the repository `Take-a-Hike`
-5. Choose the branch in the drop down box, in this case `MAIN`
-6. Choose the directory in the next drop down box, in this case `Root`
-7. Then click `Save`
-8. It may take a few moments for the site to publish, but once live, the box at the top of the page with the site name will turn green and have a `Green` tick to the left of the link to the live site
-9. Another way to find the live site is to navigate to settings, on the left menu click on `pages` and this will get you to the same point.
-
-* These commands were used for version control during project:
+1. Navigate to the repository on GitHub and click on the `Settings` icon at the top of page in the navigation bar
+2. Scroll down until you see `Github Pages` on the side navigation
+3. Choose the branch in the drop down box, in this case `Main`
+4. Choose the directory in the next drop down box, in this case `Root`
+5. Then click `Save`
+6. It may take a few moments for the site to publish, but once live, the box at the top of the page with the site name will turn green and have a `Green` tick to the left of the link to the live site
+7. Another way to find the live site is to navigate to settings, on the left menu click on `pages` and this will get you to the same point.
+8. Now the website is now live on https://lynnemcgrail.github.io/take-a-hike/
+9. If any changes are required, they can be done, commited and pushed to GitHub and the changes will be updated.
+#
+* The following commands were used for version control during project:
 
     * git add `example filename` - to add files before committing
     * git commit -m `"example message"` - to commit changes to the local repository
