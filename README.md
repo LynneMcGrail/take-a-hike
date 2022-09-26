@@ -8,12 +8,10 @@
 
 * [Here is a link to the final project](https://lynnemcgrail.github.io/take-a-hike/)
 
-## FINAL DESIGN
+## Final Design
+![Final project image home page](assets/images/testing:am-i-responsive-test.png)
 
-![Final project image home page] INSERT IMAGE LINK e.g. (assets/images/testing:am-i-responsive-test.png)
-
-## INITIAL IDEA CONCEPT
-
+## Initial Idea Concept
 My initial idea for the project was to create an informative and welcoming website about the activity of hiking in Ireland. My target audience is anyone who is interested in the activity itself or seeking to benefit their health and well-being, whilst meeting new people and establishing social connections.
 This can be any person over the age of 16, any gender and any experience level. The site is safe for all age ranges from children to adults who want to learn about hiking in Ireland. I chose to make the site bright to display the information clearly and so people could navigate it easily.
 
