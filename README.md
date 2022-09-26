@@ -9,7 +9,7 @@
 * [Here is a link to the final project](https://lynnemcgrail.github.io/take-a-hike/)
 
 ## Final Design
-![Final project image home page](assets/images/testing:am-i-responsive-test.png)
+![Final project image home page](assets/readme docs/testing:am-i-responsive-test.png)
 
 ## Initial Idea Concept
 My initial idea for the project was to create an informative and welcoming website about the activity of hiking in Ireland. My target audience is anyone who is interested in the activity itself or seeking to benefit their health and well-being, whilst meeting new people and establishing social connections.
@@ -58,7 +58,8 @@ This site can be any age group, any gender and any experience level. The site is
 * The website should be easy to navigate.
 * The website should be easy to read, and images should be clear without becoming stretched or squashed.
 
-Site Goals:
+## Site Goals
+#
 * To showccase my skills in HTML and CSS.
 * To provide users with an easy to understand and easy to navigate website.
 * To provide users with enough information to decide if they'd like to join the club.
@@ -92,7 +93,7 @@ Site Goals:
 - I expect all information to be correct and accurate.
 
 ## Wireframes 
-
+#
 * I used [Balsamic](https://balsamiq.com/) to develop my wireframes for my website. I initially created the mobile version, and then scalled it up for both tablet and desktop. Because one of my requirement is to give quality information to the user to make them want to engage with the club, a one-page website is used. This guides the user through the content and quickly to the contact form and details via scrolling or directly via the navigation bar.
 
 The wireframes can be viewed [here]
@@ -101,6 +102,7 @@ The wireframes can be viewed [here]
 (insert mobile wireframe here)
 
 ## Features 
+#
 * The site consists of:
     * 5 main sections on one page, `HOME, ABOUT, UPCOMING EVENTS, GALLERY, CONTACT US`
     * The page contains a `HEADER (TITLE)`, `NAVBAR`, `MAIN CONTENT (TEXT AND IMAGES)` and `FOOTER (SOCIAL MEDIA ICONS/LINKS`
@@ -117,18 +119,16 @@ The wireframes can be viewed [here]
     * The About section follows with an introduction to the club and a 'Why Join Us' section which provides valuable information to the user about the benefits of hiking. 
     * The Gallery will have multiple images of the club's members, to encourage the site user to join.
     * The Contact Us section will have a form to include first name, last name, email address and a submit button
-    * The Thank-you page with have some thank-you text and a thumbs up logo 
-    # (* ^ To be added ^ *) # 
+    * The thank-you page will have some thank-you text and a link back to the Home page.
 
 * Hover effect on links and social media icons:
-    * Indicates to the user the location of the mouse whilst navigating the menu
-    * A straight underline helps the user to know which page they are currently on
-    * <img src=" ^ insert screen grab ^ " width=400>
+    * The blue shade indicates to the user the location of the mouse and selection that will be made, whilst navigating the menu
+    <img src="assets/readme docs/testing:hover effect on menu.png" width=400>
 
 * Contact Form:
     * Form validation requests the user to input the correct information in the input fields, this avoids the user sending illegible text/email.
     * Added thank you page for submitting the form so that the user is reassured that their message has been sent.
-    * <img src=" ^ insert screen grab here ^ " width=400>
+    * <img src="assets/readme docs/testing:contact form.png" width=400>
 
 ## DESIGN
 * Color Scheme:
