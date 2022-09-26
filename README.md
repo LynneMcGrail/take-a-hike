@@ -215,12 +215,14 @@ Colour Pallet (insert image of colours)
 7. Another way to find the live site is to navigate to settings, on the left menu click on `pages` and this will get you to the same point.
 8. Now the website is now live on https://lynnemcgrail.github.io/take-a-hike/
 9. If any changes are required, they can be done, commited and pushed to GitHub and the changes will be updated.
-#
-* The following commands were used for version control during project:
 
-    * git add `example filename` - to add files before committing
-    * git commit -m `"example message"` - to commit changes to the local repository
-    * git push - to push all committed changes to the GitHub repository
+## Git Commands Used
+The following commands were used for version control during project:
+
+* git add `example filename` - to add files before committing.
+* git commit -m `"example message"` - to commit changes to the local repository.
+* git push - to push all committed changes to the GitHub repository.
+* git status to display the working area to see which changes have been staged and which haven't. 
 
 ## HOW TO FORK A REPOSITORY:
 
