@@ -257,5 +257,14 @@ If you need to make a local clone:
 6. Change the current working directory to the new location of where you want the cloned directory to be
 7. Type git clone and then paste the URL you copied in step 4
 8. Press Enter, to create your local clone to your chosen directory
-
 #
+## Credits and References
+
+### Images and Information Sources
+
+* [The Hike Life](https://thehike.life/) for inspiration and information. 
+* [Hike It Baby](https://hikeitbaby.com/) for ideas to inspire my project development.
+* [Wikipedia](https://en.wikipedia.org/wiki/Hiking/) for information.
+* Background image and Gallery images were from multiple sources. [Pexels](https://www.pexels.com/search/hiking/) and [Unsplash](https://unsplash.com/s/photos/hiking)
+
+#### RETURN TO THE [TOP](#take-a-hike)
