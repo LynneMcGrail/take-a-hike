@@ -507,9 +507,10 @@ input[type=email] {
 /* embedded map */
 .map-responsive {
     overflow: hidden;
-    padding-bottom: 56.25%;
+    padding-bottom: 36.25%;
     position: relative;
     height: 10px;
+    margin-bottom: -80px;
 }
 
 .map-responsive iframe {
