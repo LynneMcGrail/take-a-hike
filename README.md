@@ -267,4 +267,23 @@ If you need to make a local clone:
 * [Wikipedia](https://en.wikipedia.org/wiki/Hiking/) for information.
 * Background image and Gallery images were from multiple sources. [Pexels](https://www.pexels.com/search/hiking/) and [Unsplash](https://unsplash.com/s/photos/hiking)
 
+### Code Sources
+
+* Kevin Powell on [Youtube](https://www.youtube.com/kepowob) for CSS tutorials on GRID and FLEXBOX
+* Responsive Design tutorials on [Youtube](https://www.youtube.com/) for responsive code in CSS - Kevin Powell, and Web Dev Simplified were particularly helpful to me. 
+* Help creating responsive navigation with no JS was [found here](https://www.youtube.com/watch?v=8QKOaTYvYUA&ab_channel=KevinPowell)
+* The community on slack for feedback, and pointing me to [W3Schools](https://www.w3schools.com/) for more indepth guides to the uses of HTML and CSS. 
+* Responsive media queries guidance was [found here](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
+* The guidance for the `hamburger menu` using CSS code was [found here](https://unused-css.com/blog/css-only-hamburger-menu/)
+
+# 
+
+## ACKNOWLEDGEMENTS:
+
+- Code institute for the Mentors Tutors on the course. Especially our Facilitator and Masterclass mentor [Simen Daehlin](https://github.com/Eventyret)
+- My Mentor [Jubril Akolade](@jubril_mentor) for guiding me in the right direction and helping me establish good coding practice. Also for his guidance and advice on developing a more responsive website.
+- My fellow classmates for their ideas and enthusiasm on our facilitator sessions and masterclasses, and also their support on Slack.
+- Everybody on Slack for tips, advice, quick fixes and kind words.
+- My family for their support and patience.
+
 #### RETURN TO THE [TOP](#take-a-hike)
