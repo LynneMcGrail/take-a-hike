@@ -10,7 +10,7 @@
 
 ## FINAL DESIGN
 
-![Final project image home page] INSERT IMAGE LINK e.g. (testing/responsive-test.png)
+![Final project image home page] INSERT IMAGE LINK e.g. (assets/images/testing:am-i-responsive-test.png)
 
 ## INITIAL IDEA CONCEPT
 
