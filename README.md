@@ -134,6 +134,13 @@ The wireframes can be viewed [here]
 #
 * Color Scheme:
     * With being a website that is both informative and fun, the color scheme chosen were colourful and bright to reflect nature and being outdoors. Bright background colours were used and then colourful elements to make sections 'pop' on the site to provide an appealing user experience. The colours chosen for the text and images will be clear against the background so that the site is readable. (See hex colours below)
+    * Need to test the contrast of the colours in WebAIM, (state pass or fail here). (Include any adjustments made).
+    * #C9F4F4 - This colour will be used as a background colour for the navigation menu when items are hovered over.
+    * Colour choices explained:
+    * #13FFFF - This colour will be used as a background colour for text sections overlaying images with an appropriate text colour for readability.
+    * #F39D75 - This colour will be used on the contact form for added styling.
+    * #E36D50 - This colour will be used for styling the icons in the footer section 
+    * #282828 - This colour will be used as a text colour and in any styling background where required. I chose a dark charcoal grey so it was readable but not as dark as black for the reader.
     <img src="assets/readme docs/testing:coolors-palette.png" width=350>
 
 ## Landing Page 
@@ -153,29 +160,13 @@ The wireframes can be viewed [here]
 
 ## Typography
 * In order to move away from basic fonts available, I have used [Google Fonts](https://fonts.google.com/) on my site to find a font that best suits the feel of my website. The fonts I chose are [Assistant](https://fonts.google.com/specimen/Assistant?query=assistant) and a backup of [Sans Serif](https://fonts.google.com/knowledge/glossary/sans_serif), which were imported into my code, from [Google Fonts](https://fonts.google.com/).
-
-## Design Choices 
-
-Icons 
+#
+# Design Choices 
+## Icons 
 #
 I chose the icons for my website from the [Font Awesome library](https://fontawesome.com/icons). These icons will only be used where there is no explanation needed to their meaning, social media links, contact links and a hamburger for navigational links on smaller devices. All icons used will be styled in keeping with the appearance of the website.
-
-Colours
 #
-I have used Colourmind to help in the selection of my colour scheme. I selected two colours that I wanted the reast of my pallet to fit with and then used the generator to create the pallet, it can be seen here (insert link). Need to test the contrast of the colours in WebAIM, (state pass or fail here). (Include any adjustments made).
-
-I will explain the uses of the varius colours below, starting from left to right. 
-
-Colour Pallet (insert image of colours) 
-#
-
-- #C9F4F4 - This colour will be used as a background colour for the navigation menu when items are hovered over.
-- #13FFFF - This colour will be used as a background colour for text sections overlaying images with an appropriate text colour for readability.
-- #F39D75 - This colour will be used on the contact form for added styling.
-- #E36D50 - This colour will be used for styling the icons in the footer section 
-- #3C3D4A - This colour will be used as a text colour and in any styling background where required.
-
-## Structure ##
+## Structure 
 #
 (insert w3 schools media queries etc)
 
