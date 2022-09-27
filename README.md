@@ -7,7 +7,7 @@ Take a Hike is a website designed to introduce local people to the hiking club w
 
 * [Here is a link to the final project](https://lynnemcgrail.github.io/take-a-hike/) 
 
-## Final Design
+## Final Design 
 ![Final project image home page](assets/readme docs/testing:am-i-responsive.png)
 
 ## Initial Idea Concept
