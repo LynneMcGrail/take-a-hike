@@ -196,13 +196,12 @@ I chose the icons for my website from the [Font Awesome library](https://fontawe
   <summary>Reports</summary>
   
   All pages of the app were tested using the lighthouse function built in to the Google Chrome browser on incognito mode.
+  
   <img width="300" src="assets/readme-docs/testing:lighthouse-homepage.png">
-  <img width="300" src="static/assets/img/readme_img/testing_img/home-page-loggedin.png">
-  <img width="300" src="static/assets/img/readme_img/testing_img/signin-page.png">
-  <img width="300" src="static/assets/img/readme_img/testing_img/tracklistpage.png">
-  <img width="300" src="static/assets/img/readme_img/testing_img/ratetrack-page.png">
-  <img width="300" src="static/assets/img/readme_img/testing_img/mytracks-page.png">
-  <img width="300" src="static/assets/img/readme_img/testing_img/addtrack-page.png">
+  
+  <img width="300" src="assets/readme-docs/testing:lighthouse-gallery.png">
+  
+  <img width="300" src="assets/readme-docs/testing:lighthouse-thankyoupage.png">
 
 </details>
   
