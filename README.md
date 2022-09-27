@@ -140,7 +140,7 @@ The wireframes can be viewed [here]
     * #13FFFF - This colour will be used as a background colour for text sections overlaying images with an appropriate text colour for readability.
     * #F39D75 - This colour will be used on the contact form for added styling.
     * #E36D50 - This colour will be used for styling the icons in the footer section 
-    * #282828 - This colour will be used as a text colour and in any styling background where required. I chose a dark charcoal grey so it was readable but not as dark as black for the reader.
+    * #282828 - This colour will be used as a text colour and in any styling background where required. I chose a dark charcoal grey so it was readable but not as dark as black for the reader.<br>
     <img src="assets/readme docs/testing:coolors-palette.png" width=350>
 
 ## Landing Page 
@@ -163,15 +163,13 @@ The wireframes can be viewed [here]
 #
 # Design Choices 
 ## Icons 
-#
+
 I chose the icons for my website from the [Font Awesome library](https://fontawesome.com/icons). These icons will only be used where there is no explanation needed to their meaning, social media links, contact links and a hamburger for navigational links on smaller devices. All icons used will be styled in keeping with the appearance of the website.
-#
+
 ## Structure 
-#
-(insert w3 schools media queries etc)
+* When building my website, I wanted it the styling to be responsive from desktop screen size to mobile screen size. The responsive media queries guidance used was [W3Schools](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
 
-# Technologies used
-
+## Technologies used
 * HTML
 * CSS
 
@@ -261,7 +259,7 @@ If you need to make a local clone:
 * Responsive Design tutorials on [Youtube](https://www.youtube.com/) for responsive code in CSS - Kevin Powell, and Web Dev Simplified were particularly helpful to me. 
 * Help creating responsive navigation with no JS was [found here](https://www.youtube.com/watch?v=8QKOaTYvYUA&ab_channel=KevinPowell)
 * The community on slack for feedback, and pointing me to [W3Schools](https://www.w3schools.com/) for more indepth guides to the uses of HTML and CSS. 
-* Responsive media queries guidance was [found here](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
+* Responsive media queries guidance was [W3Schools](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
 * The guidance for the `hamburger menu` using CSS code was [unused-css.com](https://unused-css.com/blog/css-only-hamburger-menu/)
 
 # 
