@@ -126,17 +126,15 @@ The wireframes can be viewed [here]
 
 * Contact Form:
     * Form validation requests the user to input the correct information in the input fields, this avoids the user sending illegible text/email.
-    * Added thank you page for submitting the form so that the user is reassured that their message has been sent.
+    * Input the use of radio buttons to demonstrate the skills I have learned to date through the course so far.
+    * I added a thank you page for submitting the form so that the user is reassured that their message has been sent.
     * <img src="assets/readme docs/testing:contact form.png" width=400>
 
 ## DESIGN
+#
 * Color Scheme:
-    * With being a website that is both informative and fun, the color scheme chosen were colourful and bright to reflect nature and being outdoors. Bright background colours were used and then colourful elements to make sections 'pop' on the site to provide an appealing user experience. The foreground text and images will be darker and clear against the background so the site is readable. (shade of black) (See hex colours below)
-    * The difference between the lighter background and darker text brings contrast to the site.
-  
-<img src=" ^ insert here ^ " width=200>
-<img src=" ^ insert here ^ " width=200>
-<img src=" ^ insert here ^ " width=200>
+    * With being a website that is both informative and fun, the color scheme chosen were colourful and bright to reflect nature and being outdoors. Bright background colours were used and then colourful elements to make sections 'pop' on the site to provide an appealing user experience. The colours chosen for the text and images will be clear against the background so that the site is readable. (See hex colours below)
+    <img src="assets/readme docs/testing:coolors-palette.png" width=350>
 
 ## Landing Page 
 * The landing page image chosen gives the user instant association that the club is about hiking, and with added zoom animation, immediately grabs their attention to the site.
