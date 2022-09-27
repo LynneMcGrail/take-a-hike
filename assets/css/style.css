@@ -321,12 +321,12 @@ a:hover {
 
 /* about us section */
 
-#about-us h3 {
-    font-size: 220%;
+#about-us h2 {
     text-align: center;
     justify-content: center;
     height: auto;
     width: auto;
+    text-transform: uppercase;
 }
 
 #about-us-container {
@@ -366,8 +366,8 @@ a:hover {
     text-align: center;
 }
 
-#health-benefits h3 {
-    font-size: 220%;
+#health-benefits h2 {
+    text-transform: uppercase;
 }
 
 .grid-item2 {
@@ -571,6 +571,7 @@ footer p {
 .container-grid {
     display: block;
     overflow: hidden;
+    margin-top: 7.1rem;
 }
 
 #photos {
