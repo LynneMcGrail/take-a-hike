@@ -138,20 +138,21 @@ The wireframes can be viewed [here]
 
 ## Landing Page 
 * The landing page image chosen gives the user instant association that the club is about hiking, and with added zoom animation, immediately grabs their attention to the site.
-* The text gives the user instant recognition as to what the club and site is all about.
-![Landing page image](assets/readme%20docs/testing%3Alanding-page-readme.png)
+* The image and text gives the user instant recognition as to what the club and site is about.
+<img src="assets/readme docs/testing:landing-page-readme.png" width=400>
+
 
 ## About Section 
 * This section welcomes the site user and gives an insight into what the club ethos is, so the potential member gets a feel for the group they would be joining. 
 
 ## Images
-* I sourced several images for the hero image, upcoming events and members gallery from the following sources, Pexels and Unsplash.
+* I sourced images for the hero image, upcoming events and members gallery from the following sources, Pexels and Unsplash.
 * There are a total of 14 images across the site.
 * All images have been compressed through `Tinypng.com`
 * None of the images used have been pushed past the pixel limit in order to prevent image distortion
 
 ## Typography
-* The fonts used on my site are "Assistant" and a backup of "Sans Serif", which is imported from Google Fonts. In order to move away from the basic fonts available, I have used Google Fonts to find a text that best suits the feel of the website. I felt the two fonts chosen, were complimentary of each other. 
+* The fonts used on my site are [Assistant](https://fonts.google.com/specimen/Assistant?query=assistant) and a backup of [Sans Serif](https://fonts.google.com/knowledge/glossary/sans_serif), which were imported from Google Fonts. In order to move away from the basic fonts available, I have used Google Fonts to find a text that best suits the feel of the website. I felt the two fonts chosen, were complimentary of each other. 
 
 ## Design Choices 
 
