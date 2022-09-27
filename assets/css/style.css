@@ -618,10 +618,6 @@ img {
     margin: 0 auto;
 }
 
-#photos {
-    column-count: 3;
-}
-
 .container-1 {
     grid-template-columns: 1fr;
 }
