@@ -270,7 +270,7 @@ If you need to make a local clone:
 - Code institute for the Mentors Tutors on the course. Especially our Facilitator and Masterclass mentor [Simen Daehlin](https://github.com/Eventyret)
 - My Mentor [Jubril Akolade](@jubril_mentor) for guiding me in the right direction and helping me establish good coding practice. Also for his guidance and advice on developing a more responsive website.
 - My fellow classmates for their ideas and enthusiasm on our facilitator sessions and masterclasses, and also their support on Slack.
-- Everybody on Slack for tips, advice, quick fixes and kind words.
+- Everybody on Slack for tips, advice, quick fixes and kind words. Especially Chris Williams who gave me great advice and pointed me in the right direction for better coding practice.
 - My family for their support and patience.
 
 #### RETURN TO THE [TOP](#take-a-hike)
