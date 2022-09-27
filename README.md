@@ -138,14 +138,14 @@ The wireframes can be viewed [here]
 
 ## Landing Page 
 * The landing page image chosen gives the user instant association that the club is about hiking, and with added zoom animation, immediately grabs their attention to the site.
-* The text gives instant information to the user on what the club is.
-* (insert screenshot here)
+* The text gives the user instant recognition as to what the club and site is all about.
+![Landing page image](assets/readme%20docs/testing%3Alanding-page-readme.png)
 
 ## About Section 
 * This section welcomes the site user and gives an insight into what the club ethos is, so the potential member gets a feel for the group they would be joining. 
 
 ## Images
-* I sourced several images for the hero image, upcoming events and members gallery
+* I sourced several images for the hero image, upcoming events and members gallery from the following sources, Pexels and Unsplash.
 * There are a total of 14 images across the site.
 * All images have been compressed through `Tinypng.com`
 * None of the images used have been pushed past the pixel limit in order to prevent image distortion
