@@ -8,7 +8,7 @@ Take a Hike is a website designed to introduce local people to the hiking club w
 * [Here is a link to the final project](https://lynnemcgrail.github.io/take-a-hike/) 
 
 ## Final Design 
-![Final project image home page](assets/readme docs/testing:am-i-responsive.png)
+![Final project image home page](assets/readme-docs/testing:am-i-responsive.png)
 
 ## Initial Idea Concept
 My initial idea for the project was to create an informative and welcoming website about the activity of hiking in Ireland. My target audience is anyone who is interested in the activity itself or seeking to benefit their health and well-being, whilst meeting new people and establishing social connections.
@@ -106,11 +106,11 @@ The wireframes can be viewed [here]
     * 5 main sections on one page, `HOME, ABOUT, UPCOMING EVENTS, GALLERY, CONTACT US`
     * The page contains a `HEADER (TITLE)`, `NAVBAR`, `MAIN CONTENT (TEXT AND IMAGES)` and `FOOTER (SOCIAL MEDIA ICONS/LINKS`
 * Navigation bar:
-    * The navigation bar is fully responsive to allow for various screen sizes. It includes links to maneuver through the site easily with each menu option navigating to it's particular section.
-    <img src="assets/readme docs/testing:navigation-menu.png" width=400>
-    * On mobile and tablet screen sizes you can see the hamburger menu option appears, highlighting the responsiveness of the site across device sizes
-    <img src="assets/readme docs/testing:hamburger-menu.png" width=400>
-    <img src="assets/readme docs/testing:hamburger-menu-drawer.png" width=200>
+    * The navigation bar is fully responsive to allow for various screen sizes. It includes links to maneuver through the site easily with each menu option navigating to it's particular section.<br>
+    <img src="assets/readme-docs/testing:navigation-menu.png" width=400>
+    * On mobile and tablet screen sizes you can see the hamburger menu option appears, highlighting the responsiveness of the site across device sizes<br>
+    <img src="assets/readme-docs/testing:hamburger-menu.png" width=400><br>
+    <img src="assets/readme-docs/testing:hamburger-menu-drawer.png" width=200>
 
 * Footer:
 * <img src="_insert screenshot" width=400>
@@ -124,13 +124,13 @@ The wireframes can be viewed [here]
 
 * Hover effect on links and social media icons:
     * The blue shade indicates to the user the location of the mouse and selection that will be made, whilst navigating the menu
-    <img src="assets/readme docs/testing:hover effect on menu.png" width=400>
+    <img src="assets/readme-docs/testing:hover effect on menu.png" width=400>
 
 * Contact Form:
     * Form validation requests the user to input the correct information in the input fields, this avoids the user sending illegible text/email.
     * Input the use of radio buttons to demonstrate the skills I have learned to date through the course so far.
     * I added a thank you page for submitting the form so that the user is reassured that their message has been sent.
-    * <img src="assets/readme docs/testing:contact form.png" width=400>
+    * <img src="assets/readme-docs/testing:contact form.png" width=400>
 
 ## DESIGN
 #
@@ -143,12 +143,12 @@ The wireframes can be viewed [here]
     * #F39D75 - This colour will be used on the contact form for added styling.
     * #E36D50 - This colour will be used for styling the icons in the footer section 
     * #282828 - This colour will be used as a text colour and in any styling background where required. I chose a dark charcoal grey so it was readable but not as dark as black for the reader.<br>
-    <img src="assets/readme docs/testing:coolors-palette.png" width=350>
+    <img src="assets/readme-docs/testing:coolors-palette.png" width=350>
 
 ## Landing Page 
 * The landing page image chosen gives the user instant association that the club is about hiking, and with added zoom animation, immediately grabs their attention to the site.
 * The image and text gives the user instant recognition as to what the club and site is about.<br>
-<img src="assets/readme docs/testing:landing-page-readme.png" width=400>
+<img src="assets/readme-docs/testing:landing-page-readme.png" width=400>
 
 
 ## About Section 
