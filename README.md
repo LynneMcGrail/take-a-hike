@@ -152,13 +152,13 @@ The wireframes can be viewed [here]
 * None of the images used have been pushed past the pixel limit in order to prevent image distortion
 
 ## Typography
-* The fonts used on my site are [Assistant](https://fonts.google.com/specimen/Assistant?query=assistant) and a backup of [Sans Serif](https://fonts.google.com/knowledge/glossary/sans_serif), which were imported from Google Fonts. In order to move away from the basic fonts available, I have used Google Fonts to find a text that best suits the feel of the website. I felt the two fonts chosen, were complimentary of each other. 
+* In order to move away from basic fonts available, I have used [Google Fonts](https://fonts.google.com/) on my site to find a font that best suits the feel of my website. The fonts I chose are [Assistant](https://fonts.google.com/specimen/Assistant?query=assistant) and a backup of [Sans Serif](https://fonts.google.com/knowledge/glossary/sans_serif), which were imported into my code, from [Google Fonts](https://fonts.google.com/).
 
 ## Design Choices 
 
 Icons 
 #
-I used some icons for my website from the Font Awesome library. These icons will only be used where there is no explination needed to their meaning, social media links, contact links and a hamburger for navigational links on smaller devices. All icons used will be styled and in keeping with the appearance of the website.
+I chose the icons for my website from the [Font Awesome library](https://fontawesome.com/icons). These icons will only be used where there is no explanation needed to their meaning, social media links, contact links and a hamburger for navigational links on smaller devices. All icons used will be styled in keeping with the appearance of the website.
 
 Colours
 #
