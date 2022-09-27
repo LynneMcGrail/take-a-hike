@@ -24,7 +24,6 @@
         <a href="index.html">
             <h1 id="logo">Take a Hike <i class="fa-solid fa-mountain"></i></h1>
         </a>
-        <input type="checkbox" id="nav-toggle" class="nav-toggle">
         <nav>
             <div class="navbar">
                 <ul id="menu">
@@ -206,18 +205,20 @@
                             <input id="email" type="email" name="email_address" placeholder="Email Address"
                                 required></label>
                         <h2>Where do you prefer to hike?</h2>
-                        <div class="radio-pair">
-                            <input id="mountains" type="radio" name="what-style" value="moutains" required>
-                            <label for="mountains">Mountains</label>
-                        </div>
-                        <div class="radio-pair">
-                            <input id="trails" type="radio" name="what-style" value="trails">
-                            <label for="trails">Trails</label>
-                        </div>
-                        <div class="radio-pair">
-                            <input id="both" type="radio" name="what-style" value="both">
-                            <label for="both">Both</label>
-                        </div>
+                        <fieldset>
+                            <div class="radio-pair">
+                                <input id="mountains" type="radio" name="what-style" value="moutains" required>
+                                <label for="mountains">Mountains</label>
+                            </div>
+                            <div class="radio-pair">
+                                <input id="trails" type="radio" name="what-style" value="trails">
+                                <label for="trails">Trails</label>
+                            </div>
+                            <div class="radio-pair">
+                                <input id="both" type="radio" name="what-style" value="both">
+                                <label for="both">Both</label>
+                            </div>
+                        </fieldset>
                         <input id="button" type="submit" value="Submit">
                     </form>
                 </section>
