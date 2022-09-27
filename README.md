@@ -215,11 +215,9 @@ I chose the icons for my website from the [Font Awesome library](https://fontawe
   As before a summary of results is shown as well as links to the individual results.  
     
     
-  [link to home page WAVE result](https://wave.webaim.org/report#/https://metal-re-injection.herokuapp.com/)  
-  [link to login page WAVE result](https://wave.webaim.org/report#/https://metal-re-injection.herokuapp.com/accounts/login/)  
-  [link to signup page WAVE result](https://wave.webaim.org/report#/https://metal-re-injection.herokuapp.com/accounts/signup/)  
-  [link to tracklist page WAVE result](https://wave.webaim.org/report#/https://metal-re-injection.herokuapp.com/tracks/song-list/)  
-  [link to rate a track page WAVE result](https://wave.webaim.org/report#/https://metal-re-injection.herokuapp.com/tracks/single-song/48/)
+  [link to home page WAVE result](https://wave.webaim.org/report#/https://lynnemcgrail.github.io/take-a-hike/index.html)  
+  [link to gallery page WAVE result](https://wave.webaim.org/report#/https://lynnemcgrail.github.io/take-a-hike/gallery.html)  
+  [link to thank-you page WAVE result](https://wave.webaim.org/report#/https://lynnemcgrail.github.io/take-a-hike/thankyou.html?first_name=Lynne&last_name=McGrail&email_address=lynne.mcgrail%40gmail.com&what-style=both) 
 
   There were 2 parts of the site that were inaccesible and due to this I was unable to check them with the tool. 
   * These were:
