@@ -107,8 +107,10 @@ The wireframes can be viewed [here]
     * The page contains a `HEADER (TITLE)`, `NAVBAR`, `MAIN CONTENT (TEXT AND IMAGES)` and `FOOTER (SOCIAL MEDIA ICONS/LINKS`
 * Navigation bar:
     * The navigation bar is fully responsive to allow for various screen sizes. It includes links to maneuver through the site easily with each menu option navigating to it's particular section.
-(insert screenshots here)
-* <img src="_insert screenshot" width=400>
+    <img src="assets/readme docs/testing:navigation-menu.png" width=400>
+    * On mobile and tablet screen sizes you can see the hamburger menu option appears, highlighting the responsiveness of the site across device sizes
+    <img src="assets/readme docs/testing:hamburger-menu.png" width=400>
+    <img src="assets/readme docs/testing:hamburger-menu-drawer.png" width=200>
 
 * Footer:
 * <img src="_insert screenshot" width=400>
@@ -145,7 +147,7 @@ The wireframes can be viewed [here]
 
 ## Landing Page 
 * The landing page image chosen gives the user instant association that the club is about hiking, and with added zoom animation, immediately grabs their attention to the site.
-* The image and text gives the user instant recognition as to what the club and site is about.
+* The image and text gives the user instant recognition as to what the club and site is about.<br>
 <img src="assets/readme docs/testing:landing-page-readme.png" width=400>
 
 
@@ -163,7 +165,6 @@ The wireframes can be viewed [here]
 #
 # Design Choices 
 ## Icons 
-
 I chose the icons for my website from the [Font Awesome library](https://fontawesome.com/icons). These icons will only be used where there is no explanation needed to their meaning, social media links, contact links and a hamburger for navigational links on smaller devices. All icons used will be styled in keeping with the appearance of the website.
 
 ## Structure 
