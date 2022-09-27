@@ -755,26 +755,26 @@ input[type=email] {
 
 }
 
-@media screen and (min-width: 1000px) {
-    #photos {
-        column-count: 3;
-    }
-}
-
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1129px) {
 
     .hamburger-container {
         display: none;
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1129px) {
     #photos {
         column-count: 2;
     }
 
     #menu {
         display: none;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    #photos {
+        column-count: 3;
     }
 }
 
