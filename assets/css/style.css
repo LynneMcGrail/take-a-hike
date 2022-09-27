@@ -504,13 +504,22 @@ input[type=email] {
     margin: 10px;
 }
 
-/* embedded map */
+/* map */
+#findus, h3 {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 220%;
+}
+
+/* embedded map section */
 .map-responsive {
     overflow: hidden;
     padding-bottom: 36.25%;
     position: relative;
     height: 10px;
     margin-bottom: -80px;
+    margin-top: 20px;
 }
 
 .map-responsive iframe {
