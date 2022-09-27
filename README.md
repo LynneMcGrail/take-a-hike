@@ -2,9 +2,8 @@
 
 # Take a Hike #
 
-## Goals for this project ##
-#
-Take a Hike is a website designed to introduce local people to the hiking club which provides an outlet for a range of age groups, from young adults (16+) up. It was set up during the pandemic to encourage people to move more, meet new people, explore more, and maybe for some, to take up a new activity. The website provides information about the club, information about the benefits of hiking, the upcoming hiking events to show a potential member the benefits of joining the group. It also allows the person to make contact with the club easily through social media links or directly via the contact form on the site.
+## Goals for this project 
+Take a Hike is a website designed to introduce local people to the hiking club which provides an outlet for any age groups, any gender and caters for all levels of experience. The hiking group was set up during the pandemic to encourage people to move more, meet new people, explore more, and maybe for some, to take up a new activity. The website provides information about the club, information about the benefits of hiking, the club's upcoming events, they are organised by difficulty level to show a potential member the options available when joining the group. The site also allows the person to make contact with the club easily through social media links or directly via the contact form on the site.
 
 * [Here is a link to the final project](https://lynnemcgrail.github.io/take-a-hike/) 
 
