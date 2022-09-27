@@ -505,11 +505,12 @@ input[type=email] {
 }
 
 /* map */
-#findus, h3 {
+#findus, h2 {
     justify-content: center;
     text-align: center;
     align-items: center;
-    font-size: 220%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
 }
 
 /* embedded map section */
