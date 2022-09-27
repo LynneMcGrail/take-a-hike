@@ -272,7 +272,7 @@ If you need to make a local clone:
 * Help creating responsive navigation with no JS was [found here](https://www.youtube.com/watch?v=8QKOaTYvYUA&ab_channel=KevinPowell)
 * The community on slack for feedback, and pointing me to [W3Schools](https://www.w3schools.com/) for more indepth guides to the uses of HTML and CSS. 
 * Responsive media queries guidance was [found here](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
-* The guidance for the `hamburger menu` using CSS code was [found here](https://unused-css.com/blog/css-only-hamburger-menu/)
+* The guidance for the `hamburger menu` using CSS code was [unused-css.com](https://unused-css.com/blog/css-only-hamburger-menu/)
 
 # 
 

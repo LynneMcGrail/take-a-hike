@@ -236,6 +236,7 @@ nav a:hover {
 
 .drawer .nav-list .nav-list-item {
     padding-bottom: 10px;
+    font-size: 25px;
 }
 
 /* Make the drawer full-width on mobile */
