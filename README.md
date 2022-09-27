@@ -188,6 +188,63 @@ I chose the icons for my website from the [Font Awesome library](https://fontawe
 * Font Awesome 
   * Used for the logo, section titles and social media link icons in the footer of each page. The font awesome script is also linked in the HTML file for these to be visible on the site. 
   #
+  
+## Validation and accessibility
+#
+### **Lighthouse report**
+<details>
+  <summary>Reports</summary>
+  
+  All pages of the app were tested using the lighthouse function built in to the Google Chrome browser on incognito mode.
+  <img width="300" src="assets/readme-docs/testing:lighthouse-homepage.png">
+  <img width="300" src="static/assets/img/readme_img/testing_img/home-page-loggedin.png">
+  <img width="300" src="static/assets/img/readme_img/testing_img/signin-page.png">
+  <img width="300" src="static/assets/img/readme_img/testing_img/tracklistpage.png">
+  <img width="300" src="static/assets/img/readme_img/testing_img/ratetrack-page.png">
+  <img width="300" src="static/assets/img/readme_img/testing_img/mytracks-page.png">
+  <img width="300" src="static/assets/img/readme_img/testing_img/addtrack-page.png">
+
+</details>
+  
+### **WAVE Webaim Accessibility testing**
+<details>
+  <summary>Reports</summary>
+
+  ### **Accessibility report**
+  The WAVE tool was used to test all pages on the app.
+  Some errors repeat over each page tested, these were due to the social links not having text as they are fontawesome links.
+  As before a summary of results is shown as well as links to the individual results.  
+    
+    
+  [link to home page WAVE result](https://wave.webaim.org/report#/https://metal-re-injection.herokuapp.com/)  
+  [link to login page WAVE result](https://wave.webaim.org/report#/https://metal-re-injection.herokuapp.com/accounts/login/)  
+  [link to signup page WAVE result](https://wave.webaim.org/report#/https://metal-re-injection.herokuapp.com/accounts/signup/)  
+  [link to tracklist page WAVE result](https://wave.webaim.org/report#/https://metal-re-injection.herokuapp.com/tracks/song-list/)  
+  [link to rate a track page WAVE result](https://wave.webaim.org/report#/https://metal-re-injection.herokuapp.com/tracks/single-song/48/)
+
+  There were 2 parts of the site that were inaccesible and due to this I was unable to check them with the tool. 
+  * These were:
+    - Mytracks page, Internal server error
+    - Rate a track page, User must be signed in, WAVE wouldn't allow me to sign in
+    
+</details>
+
+  ### **CSS Validation**
+  <details>
+  <summary>CSS Validator results</summary>
+  Only the custom CSS file was tested (style.css)
+  <img width="600" src="static/assets/img/readme_img/testing_img/CSSvalidator.png">
+  
+  </details>
+  
+ ### **HTML Validation**  
+  <details>
+  <summary>HTML Validator results</summary>
+  All HTML was passed through the validator retreived from the source code within devtools on Chrome.
+
+  [link to w3c validator result](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fmetal-re-injection.herokuapp.com%2F)
+  
+  </details>
   # DEPLOYMENT
   ## Remote Deployment
   (Assuming you have already cloned or forked)
