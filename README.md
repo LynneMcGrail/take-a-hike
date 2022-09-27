@@ -8,7 +8,7 @@ Take a Hike is a website designed to introduce local people to the hiking club w
 * [Here is a link to the final project](https://lynnemcgrail.github.io/take-a-hike/) 
 
 ## Final Design
-![Final project image home page](assets/readme%20docs/testing%3Aam-i-responsive-test.png)
+![Final project image home page](assets/readme docs/testing:am-i-responsive.png)
 
 ## Initial Idea Concept
 My initial idea for the project was to create an informative and welcoming website about the activity of hiking in Ireland. My target audience is anyone who is interested in the activity itself or seeking to benefit their health and well-being, whilst meeting new people and establishing social connections.
