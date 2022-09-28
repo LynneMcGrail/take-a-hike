@@ -187,12 +187,11 @@ The wireframes can be viewed [here](assets/readme-docs/wireframes.pdf)
   * For checking compatibility, troubleshooting and editing code live to see what changes needed to be made. 
 * Font Awesome 
   * Used for the logo, section titles and social media link icons in the footer of each page. The font awesome script is also linked in the HTML file for these to be visible on the site. 
-  #
 
+#
 # Testing
 
 ## Validation and Accessibility
-#
 
 ## Lighthouse
 ## **Lighthouse Report:**
@@ -244,10 +243,10 @@ The wireframes can be viewed [here](assets/readme-docs/wireframes.pdf)
 # Bugs and errors
 
 ## Solved bugs and errors
-<!-- insert errors here -->
+* <!-- insert errors here -->
 
 ## Unsolved bugs and errors
-<!-- insert errors here -->
+* <!-- insert errors here -->
 
 #
 # Deployment
