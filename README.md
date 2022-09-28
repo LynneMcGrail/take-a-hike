@@ -26,28 +26,32 @@ This site can be any age group, any gender and any experience level. The site is
 #
 ## Table of Contents
 - [UX/UI](#uxui)
+    * [SITE GOALS](#site-goals)
     * [USERSTORIES](#user-stories)
+    * [REQUIREMENTS](#requirements)
+    * [EXPECTATIONS](#expectations)
 - [WIREFRAMES](#wireframes)
   * [FEATURES](#features)
   * [DESIGN](#design)
+- [TECHNOLOGIES USED](#technologies-used)
+  * [PROGRAMMES USED](#programmes-used)
 - [TESTING](#testing)
-  * [DEVICES](#devices)
-  * [VALIDATORS](#validators)
+  * [VALIDATION AND ACCESSIBILITY](#validation-and-accessibility)
   * [LIGHTHOUSE](#lighthouse)
   * [ACCESSIBILITY](#accessibility)
+  * [CSS](#css)
+  * [HTML](#html)
+  * [FUNCTIONALITY](#functionality)
 - [SOLVED BUGS AND ERRORS](#solved-bugs-and-errors)
   * [UNSOLVED BUGS AND ERRORS](#unsolved-bugs-and-errors)
-  * [FUNCTIONALITY](#functionality)
-- [TECHNOLOGIES USED](#technologies-used)
-  * [PROGRAMS USED](#programs-used)
 - [DEPLOYMENT](#deployment)
   * [REMOTE](#remote-deployment)
   * [HOW TO FORK A REPOSITORY](#how-to-fork-a-repository)
   * [HOW TO CLONE A REPOSITORY](#how-to-clone-a-repository)
   * [HOW TO MAKE A LOCAL CLONE](#how-to-make-a-local-clone)
 - [CREDITS](#credits-and-references)
-  * [IMAGES AND INFORMATION](#images-and-information)
-  * [CODE](#code)
+  * [IMAGES AND INFORMATION](#images-and-information-sources)
+  * [CODE](#code-sources)
 - [ACKNOWLEDGEMENTS](#acknowledgements)
 
 #
@@ -94,10 +98,7 @@ This site can be any age group, any gender and any experience level. The site is
 ## Wireframes 
 * I used [Balsamic](https://balsamiq.com/) to develop my wireframes for my website. I initially created the mobile version, and then scalled it up for both tablet and desktop. Because one of my requirement is to give quality information to the user to make them want to engage with the club, a one-page website is used. This guides the user through the content and quickly to the contact form and details via scrolling or directly via the navigation bar.
 
-The wireframes can be viewed [here]
-(insert desktop wireframe here)
-(insert tablet wireframe here)
-(insert mobile wireframe here)
+The wireframes can be viewed [here](assets/readme-docs/wireframes.pdf)
 
 #
 ## Features 
@@ -132,7 +133,7 @@ The wireframes can be viewed [here]
     * <img src="assets/readme-docs/testing:contact form.png" width=400>
 
 #
-## DESIGN
+## Design
 * Color Scheme:
     * With being a website that is both informative and fun, the color scheme chosen were colourful and bright to reflect nature and being outdoors. Bright background colours were used and then colourful elements to make sections 'pop' on the site to provide an appealing user experience. The colours chosen for the text and images will be clear against the background so that the site is readable. (See hex colours below)
     * Need to test the contrast of the colours in WebAIM, (state pass or fail here). (Include any adjustments made).
@@ -161,17 +162,17 @@ The wireframes can be viewed [here]
 
 ## Typography
 * In order to move away from basic fonts available, I have used [Google Fonts](https://fonts.google.com/) on my site to find a font that best suits the feel of my website. The fonts I chose are [Assistant](https://fonts.google.com/specimen/Assistant?query=assistant) and a backup of [Sans Serif](https://fonts.google.com/knowledge/glossary/sans_serif), which were imported into my code, from [Google Fonts](https://fonts.google.com/).
-#
-# Design Choices 
+
 ## Icons 
-I chose the icons for my website from the [Font Awesome library](https://fontawesome.com/icons). These icons will only be used where there is no explanation needed to their meaning, social media links, contact links and a hamburger for navigational links on smaller devices. All icons used will be styled in keeping with the appearance of the website.
+* I chose the icons for my website from the [Font Awesome library](https://fontawesome.com/icons). These icons will only be used where there is no explanation needed to their meaning, social media links, contact links and a hamburger for navigational links on smaller devices. All icons used will be styled in keeping with the appearance of the website.
 
 ## Structure 
 * When building my website, I wanted it the styling to be responsive from desktop screen size to mobile screen size. The responsive media queries guidance used was [W3Schools](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
 
+#
 ## Technologies used
-* HTML
-* CSS
+* [HTML](https://en.wikipedia.org/wiki/HTML5)
+* [CSS](https://en.wikipedia.org/wiki/CSS#CSS_3)
 
 ## Programmes Used
 * GIT
@@ -192,20 +193,20 @@ I chose the icons for my website from the [Font Awesome library](https://fontawe
 
 ## Validation and Accessibility
 #
-### **Lighthouse Report**
-Reports
+
+## Lighthouse
+## **Lighthouse Report:**
 * All pages of the app were tested using the lighthouse function built in to the Google Chrome browser on incognito mode.
   
-  <img width="300" src="assets/readme-docs/testing:lighthouse-homepage.png">
+  <img width="400" src="assets/readme-docs/testing:lighthouse-homepage.png">
   
-  <img width="300" src="assets/readme-docs/testing:lighthouse-gallery.png">
+  <img width="400" src="assets/readme-docs/testing:lighthouse-gallery.png">
   
-  <img width="300" src="assets/readme-docs/testing:lighthouse-thankyoupage.png">
+  <img width="400" src="assets/readme-docs/testing:lighthouse-thankyoupage.png">
 
-### **WAVE Webaim Accessibility testing**
-#
+## Accessibility
+### **WAVE Webaim Accessibility test report:**
 
-Accessibility report:
 * The WAVE tool was used to test all pages on the site.
   One minor error remains for accessiblilty testing relating to the hamburger menu, this is due to the hidden label element being empty and cannot be changed as this will affect the functionality of the menu
   As before a summary of results is shown as well as links to the individual results.  
@@ -214,16 +215,14 @@ Accessibility report:
   * [Link to gallery page WAVE result](https://wave.webaim.org/report#/https://lynnemcgrail.github.io/take-a-hike/gallery.html)  
   * [Link to thank-you page WAVE result](https://wave.webaim.org/report#/https://lynnemcgrail.github.io/take-a-hike/thankyou.html?first_name=Lynne&last_name=McGrail&email_address=lynne.mcgrail%40gmail.com&what-style=both) 
 
-
-### **CSS Validation**
-  CSS Validator results:
+## CSS
+**CSS Validator results:**
   Only the custom CSS file was tested<br>
   **Style.css**<br>
   <img width="600" src="assets/readme-docs/CSSValidator.png">
 
-### **HTML Validation**
-
-  HTML Validator results
+## HTML
+**HTML Validator results:**
   All HTML was passed through the validator retreived from the source code within devtools on Chrome.<br>
 
   **Index.html:**<br>
@@ -234,6 +233,12 @@ Accessibility report:
 
   **Thankyou.html:**<br>
   <img width="600" src="assets/readme-docs/HTMLValidator-Thankyou.png">
+
+### **Functionality**
+* All links have been hovered over and clicked on to ensure accessibility
+* All Social media links work correctly and open in a new tab
+* Pages all load correctly on all device screen sizes
+* All images load on each page as intended
 
 #
 # DEPLOYMENT
