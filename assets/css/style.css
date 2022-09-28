@@ -156,15 +156,6 @@ nav a:hover {
     outline-offset: 4px;
 }
 
-/* For newer browsers that do support :focus-visible, hide the outline when the checkbox isn't selected with the keyboard. */
-@supports selector(:focus-visible) {
-    .hamburger-container 
-    .checkbox:not(:focus-visible)~
-    .hamburger {
-        outline: none;
-    }
-}
-
 /* Hide any focusable elements in the drawer by default to aid keyboard navigation. We use visibility so it makes the elements unfocusable, but doesn't affect the layout. We can also add a "transition" to visibility, which will make it show instantly when we open the drawer, but take half a second to hide it when we close the drawer. */
 .hamburger-container .drawer a {
     visibility: hidden;
