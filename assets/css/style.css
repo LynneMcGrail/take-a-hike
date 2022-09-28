@@ -427,10 +427,12 @@ a:hover {
     overflow: hidden;
 }
 
-#events h1 {
-    color: #000;
+#events h4 {
+    color: #282828;
     background-color: #fff;
     text-align: center;
+    text-transform: uppercase;
+    font-size: x-large;
 }
 
 #events h2 {
