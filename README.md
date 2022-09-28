@@ -42,7 +42,8 @@ This site can be any age group, any gender and any experience level. The site is
   * [CSS](#css)
   * [HTML](#html)
   * [FUNCTIONALITY](#functionality)
-- [SOLVED BUGS AND ERRORS](#solved-bugs-and-errors)
+- [BUGS AND ERRORS](#bugs-and-errors)
+  * [SOLVED BUGS AND ERRORS](#solved-bugs-and-errors)
   * [UNSOLVED BUGS AND ERRORS](#unsolved-bugs-and-errors)
 - [DEPLOYMENT](#deployment)
   * [REMOTE](#remote-deployment)
@@ -107,7 +108,7 @@ The wireframes can be viewed [here](assets/readme-docs/wireframes.pdf)
     * The page contains a `HEADER (TITLE)`, `NAVBAR`, `MAIN CONTENT (TEXT AND IMAGES)` and `FOOTER (SOCIAL MEDIA ICONS/LINKS`
 * Navigation bar:
     * The navigation bar is fully responsive to allow for various screen sizes. It includes links to maneuver through the site easily with each menu option navigating to it's particular section.<br>
-    <img src="assets/readme-docs/testing:navigation-menu.png" width=400>
+    <img src="assets/readme-docs/testing:navigation-menu.png" width=400><br>
     * On mobile and tablet screen sizes you can see the hamburger menu option appears, highlighting the responsiveness of the site across device sizes<br>
     <img src="assets/readme-docs/testing:hamburger-menu.png" width=400><br>
     <img src="assets/readme-docs/testing:hamburger-menu-drawer.png" width=200>
@@ -136,7 +137,6 @@ The wireframes can be viewed [here](assets/readme-docs/wireframes.pdf)
 ## Design
 * Color Scheme:
     * With being a website that is both informative and fun, the color scheme chosen were colourful and bright to reflect nature and being outdoors. Bright background colours were used and then colourful elements to make sections 'pop' on the site to provide an appealing user experience. The colours chosen for the text and images will be clear against the background so that the site is readable. (See hex colours below)
-    * Need to test the contrast of the colours in WebAIM, (state pass or fail here). (Include any adjustments made).
     * #C9F4F4 - This colour will be used as a background colour for the navigation menu when items are hovered over.
     * Colour choices explained:
     * #13FFFF - This colour will be used as a background colour for text sections overlaying images with an appropriate text colour for readability.
@@ -241,7 +241,16 @@ The wireframes can be viewed [here](assets/readme-docs/wireframes.pdf)
 * All images load on each page as intended
 
 #
-# DEPLOYMENT
+# Bugs and errors
+
+## Solved bugs and errors
+<!-- insert errors here -->
+
+## Unsolved bugs and errors
+<!-- insert errors here -->
+
+#
+# Deployment
   ## Remote Deployment
   (Assuming you have already cloned or forked)
 * Following writing the code, then committing and pushing to GitHub, this project was deployed using GitHub through the following the steps:
