@@ -190,11 +190,39 @@ The wireframes can be viewed [here](assets/readme-docs/wireframes.pdf)
 
 #
 # Testing
+In my opinion, the site has hit the goals required by all users. The site responds nicely across all different screen sizes, the images look clean and sharp on all device sizes, with very little, large blank spaces. It allows the user to navigate around easily and aslo make contact with the club via the contact form or social media icon links. The content is simple and to the point and the site is not overcrowded as to put the user off.
+\
+&nbsp;
+
+I have encountered several issues during testing.
+
+* I initially decided to create the site with a minimum width of 992px as my largest styling, however the site just did not look right so added an x-large screen size.
+* One of the errors highlighted in the HTML validator was within my 'events' section, I learned from this error that instead of using an ID which I had done initially, using a class worked better and gave me more control over the divs highlighting each upcoming event to the site user. 
+* Originally I had planned one style of navigtaion menu, however on testing my site across different device screen sizes, I implemented a hamburger menu (see code credited below). The hamburger menu works much better across smaller screeen sizes such as mobile and tablet. I also created a hover effect where the text turns white.
+* The hamburger menu initially did not close on selection, however I fixed this bug and it now operates fully opening and closing so that the drawer disappears and the user can navigate the site easily. I removed some navigation elements from the hamburger menu, i.e. when the user is active on the gallery page, the hamburger menu then only shows the Home navigation option. This was because on testing, some of the other links didn't respond so I removed them to avoid non-functional links. 
+* The contact form originally did not require a name or email when interacted with. This was a minor error which I fixed, and prompted me to include a thank you page when the user submits a request through the contact form. I also input the use of radio buttons to demonstrate my skills within the contact form section. 
+* On testing the gallery across all device sizes, I noticed the pictures were distorted on a smaller screen and very squished. To fix this, I implemented a column count within the media queries to suit differen screen sizes. This has allowed for easier navigation and enhanced user experience when viewing on smaller devices.
+* The embedded map is a feature which allows the user to interact with the site, initially this was displaying incorrectly on mobile devices, a minor error I was able to test and fix within the CSS styling, and now it is responsive across all device screen sizes. 
+\
+&nbsp;
+
+## Unfixed bugs
+* There is one occasion where I have used 'floats' in my project, I was unable to control the section to respond the way I had intended it to, by using flexbox. However I have used flexbox successfully elsewhere, and I hope by demonstrating both methods in my project, it highlights the skills that I have learned so far. I know there is still a lot for me to learn, and I hope as I develop my skillset as a Software Developer, that I can streamline some of the methods I have used in this project in my future projects and as eventually as a qualified developer in the coding industry. 
+\
+&nbsp;
+
+## Features to be Implemented
+* For the contact form to send a message to Take a Hike, instead of leading to a dummy 'thank-you' page.
+* Display and add links to club sponsors websites.
+* Add a shop for club branded clothing to be purchased.
+* Add a self-guided hiking route feature with downloadable offline maps for members to select and navigate themselves at any time, rather than only being able to join any of the groups upcoming organised hikes and pre set locations.
+\
+&nbsp;
 
 ## Validation and Accessibility
-
+#
 ## Lighthouse
-## **Lighthouse Report:**
+### **Lighthouse Report:**
 * All pages of the app were tested using the lighthouse function built in to the Google Chrome browser on incognito mode.
   
   <img width="400" src="assets/readme-docs/testing:lighthouse-homepage.png">
