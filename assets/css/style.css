@@ -416,7 +416,7 @@ a:hover {
 
 /* upcoming events */
 
-#events {
+.events {
     color: #faf9f6;
     background-image: url('../images/carrauntoohill-bg-img.jpg');
     background-repeat: no-repeat;
@@ -427,7 +427,7 @@ a:hover {
     overflow: hidden;
 }
 
-#events h4 {
+.events h4 {
     color: #282828;
     background-color: #fff;
     text-align: center;
@@ -436,12 +436,12 @@ a:hover {
     letter-spacing: 4px;
 }
 
-#events h2 {
+.events h2 {
     color: #faf9f6;
     font-size: large;
 }
 
-#events div {
+.events div {
     color: #faf9f6;
     background-color: rgba(0, 0, 0, 0.415);
     width: 20%;
@@ -605,7 +605,7 @@ img {
     margin: 0;
 }
 
-#events>div {
+.events>div {
     width: 100%;
     clear: both;
     height: 200px;
