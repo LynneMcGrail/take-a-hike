@@ -18,7 +18,6 @@ html {
 
 body {
     font-family: Assistant, 'sans-serif';
-    font-size: 300;
     height: auto;
     width: auto;
     color: #282828;
@@ -139,7 +138,7 @@ nav a:hover {
 .hamburger-container {
     width: max-content;
     position: absolute;
-    top: 40;
+    top: 40px;
     left: 10px;
     color: white;
     transition: transform 0.5s ease;
@@ -159,7 +158,9 @@ nav a:hover {
 
 /* For newer browsers that do support :focus-visible, hide the outline when the checkbox isn't selected with the keyboard. */
 @supports selector(:focus-visible) {
-    .hamburger-container .checkbox:not(:focus-visible)~.hamburger {
+    .hamburger-container 
+    .checkbox:not(:focus-visible)~
+    .hamburger {
         outline: none;
     }
 }
