@@ -45,7 +45,6 @@ This site can be any age group, any gender and any experience level. The site is
   * [HOW TO FORK A REPOSITORY](#how-to-fork-a-repository)
   * [HOW TO CLONE A REPOSITORY](#how-to-clone-a-repository)
   * [HOW TO MAKE A LOCAL CLONE](#how-to-make-a-local-clone)
-
 - [CREDITS](#credits-and-references)
   * [IMAGES AND INFORMATION](#images-and-information)
   * [CODE](#code)
@@ -57,15 +56,15 @@ This site can be any age group, any gender and any experience level. The site is
 * The website should be easy to navigate.
 * The website should be easy to read, and images should be clear without becoming stretched or squashed.
 
-## Site Goals
 #
+## Site Goals
 * To showccase my skills in HTML and CSS.
 * To provide users with an easy to understand and easy to navigate website.
 * To provide users with enough information to decide if they'd like to join the club.
 * To make the site easily accessible for all users.
 
-## User Stories 
 #
+## User Stories 
 * As a user, I want to understand the main purpose of the website.
 * As a user, know that the club is well established.
 * As a user, I want the website to give me the health benefits of hiking.
@@ -75,24 +74,24 @@ This site can be any age group, any gender and any experience level. The site is
 * As a user, I want to see images related to the hiking group.
 * As a user, I want to be able to easily contact the club.
 
-## Requirements ##
 #
+## Requirements ##
 - Easy to navigate on various screen sizes.
 - Clear information on the services provided.
 - Keep the user interested with small bits of information to make them want to engage with the club.
 - Simple methods of contacting the club.
 - Visually inviting and readable, so users do not leave.
 
-## Expectations ##
 #
+## Expectations ##
 - I expect to know if a form has been submitted properly and if items are not filled in, to be prompted -e.g. error message if email address required and not input properly.
 - I expect all links to social media sites to be opened in a new tab.
 - I expect all navigation links to work correctly and open in the same tab, but navigate to the section selected in the nav bar.
 - I expect screen size not to affect the quality of the website.
 - I expect all information to be correct and accurate.
 
-## Wireframes 
 #
+## Wireframes 
 * I used [Balsamic](https://balsamiq.com/) to develop my wireframes for my website. I initially created the mobile version, and then scalled it up for both tablet and desktop. Because one of my requirement is to give quality information to the user to make them want to engage with the club, a one-page website is used. This guides the user through the content and quickly to the contact form and details via scrolling or directly via the navigation bar.
 
 The wireframes can be viewed [here]
@@ -100,8 +99,8 @@ The wireframes can be viewed [here]
 (insert tablet wireframe here)
 (insert mobile wireframe here)
 
-## Features 
 #
+## Features 
 * The site consists of:
     * 5 main sections on one page, `HOME, ABOUT, UPCOMING EVENTS, GALLERY, CONTACT US`
     * The page contains a `HEADER (TITLE)`, `NAVBAR`, `MAIN CONTENT (TEXT AND IMAGES)` and `FOOTER (SOCIAL MEDIA ICONS/LINKS`
@@ -112,8 +111,8 @@ The wireframes can be viewed [here]
     <img src="assets/readme-docs/testing:hamburger-menu.png" width=400><br>
     <img src="assets/readme-docs/testing:hamburger-menu-drawer.png" width=200>
 
-* Footer:
-* <img src="_insert screenshot" width=400>
+* Footer:<br>
+<img src="assets/readme-docs/testing:footer.png" width=400>
 
 * Layout and content:
     * The Header section will have some introductory text and a landing image.
@@ -132,8 +131,8 @@ The wireframes can be viewed [here]
     * I added a thank you page for submitting the form so that the user is reassured that their message has been sent.
     * <img src="assets/readme-docs/testing:contact form.png" width=400>
 
-## DESIGN
 #
+## DESIGN
 * Color Scheme:
     * With being a website that is both informative and fun, the color scheme chosen were colourful and bright to reflect nature and being outdoors. Bright background colours were used and then colourful elements to make sections 'pop' on the site to provide an appealing user experience. The colours chosen for the text and images will be clear against the background so that the site is readable. (See hex colours below)
     * Need to test the contrast of the colours in WebAIM, (state pass or fail here). (Include any adjustments made).
@@ -188,7 +187,9 @@ I chose the icons for my website from the [Font Awesome library](https://fontawe
 * Font Awesome 
   * Used for the logo, section titles and social media link icons in the footer of each page. The font awesome script is also linked in the HTML file for these to be visible on the site. 
   #
-  
+
+# Testing
+
 ## Validation and Accessibility
 #
 ### **Lighthouse Report**
@@ -200,10 +201,11 @@ Reports
   <img width="300" src="assets/readme-docs/testing:lighthouse-gallery.png">
   
   <img width="300" src="assets/readme-docs/testing:lighthouse-thankyoupage.png">
-#
-### **WAVE Webaim Accessibility testing**
 
-Accessibility report
+### **WAVE Webaim Accessibility testing**
+#
+
+Accessibility report:
 * The WAVE tool was used to test all pages on the site.
   One minor error remains for accessiblilty testing relating to the hamburger menu, this is due to the hidden label element being empty and cannot be changed as this will affect the functionality of the menu
   As before a summary of results is shown as well as links to the individual results.  
@@ -214,17 +216,26 @@ Accessibility report
 
 
 ### **CSS Validation**
-  CSS Validator results
-  Only the custom CSS file was tested (style.css)
-  <img width="600" src="">
+  CSS Validator results:
+  Only the custom CSS file was tested<br>
+  **Style.css**<br>
+  <img width="600" src="assets/readme-docs/CSSValidator.png">
 
 ### **HTML Validation**
 
   HTML Validator results
-  All HTML was passed through the validator retreived from the source code within devtools on Chrome.
+  All HTML was passed through the validator retreived from the source code within devtools on Chrome.<br>
 
-  [link to w3c validator result]()
-  #
+  **Index.html:**<br>
+  <img width="600" src="assets/readme-docs/HTMLValidator-Index.png">
+
+  **Gallery.html:**<br>
+  <img width="600" src="assets/readme-docs/HTMLValidator-Gallery.png">
+
+  **Thankyou.html:**<br>
+  <img width="600" src="assets/readme-docs/HTMLValidator-Thankyou.png">
+
+#
 # DEPLOYMENT
   ## Remote Deployment
   (Assuming you have already cloned or forked)
@@ -248,6 +259,7 @@ The following commands were used for version control during project:
 * git push - to push all committed changes to the GitHub repository.
 * git status to display the working area to see which changes have been staged and which haven't. 
 
+#
 ## HOW TO FORK A REPOSITORY:
 
 If you need to "FORK" a repository:
@@ -256,6 +268,7 @@ If you need to "FORK" a repository:
 2. In the top right corner, click `Fork`
 3. The next page will be the forked version of https://github.com/LynneMcGrail/take-a-hike but in your own repository
 
+#
 ## HOW TO CLONE A REPOSITORY:
 
 If you need to make a clone of this repository:
@@ -268,6 +281,7 @@ If you need to make a clone of this repository:
 6. Type `git clone` and then paste the URL you copied in step 4
 7. Press `Enter` to create your clone
 
+#
 ## HOW TO MAKE A LOCAL CLONE
 
 If you need to make a local clone:
@@ -281,6 +295,7 @@ If you need to make a local clone:
 6. Change the current working directory to the new location of where you want the cloned directory to be
 7. Type git clone and then paste the URL you copied in step 4
 8. Press Enter, to create your local clone to your chosen directory
+
 #
 ## Credits and References
 
@@ -305,9 +320,9 @@ If you need to make a local clone:
 ## ACKNOWLEDGEMENTS:
 
 - Code institute for the Mentors and Tutors on the course. Especially our Facilitator and Masterclass mentor [Simen Daehlin](https://github.com/Eventyret) and particularly his patience, and help with the use of flexbox, and understanding and correcting the html and css validation error fixes.
-- My Mentor [Jubril Akolade](@jubril_mentor) for guiding me in the right direction and helping me establish good coding practice. Also for his guidance and advice on developing a more responsive website.
+- My Mentor [Jubril Akolade](https://www.linkedin.com/in/jubrillionaire/) for guiding me in the right direction and helping me establish good coding practice. Also for his guidance and advice on developing a more responsive website.
 - My fellow classmates for their ideas and enthusiasm on our facilitator sessions and masterclasses, and also their support on Slack.
-- The Slack community for tips, advice, quick fixes and kind words. Especially Chris Williams who gave me great advice and pointed me in the right direction for better coding practice.
+- The Slack community for tips, advice, quick fixes and kind words. Especially [Chris Williams](https://github.com/Chr15w1986) who gave me great advice and pointed me in the right direction for better coding practice.
 - My family for their support and patience.
 
 #### RETURN TO THE [TOP](#take-a-hike)
