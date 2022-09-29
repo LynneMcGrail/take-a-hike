@@ -132,7 +132,7 @@ The wireframes can be viewed [here](assets/readme-docs/wireframes.pdf)
     * Form validation requests the user to input the correct information in the input fields, this avoids the user sending illegible text/email.
     * Input the use of radio buttons to demonstrate the skills I have learned to date through the course so far.
     * I added a thank you page for submitting the form so that the user is reassured that their message has been sent.
-    * <img src="assets/readme-docs/testing:contact form.png" width=400>
+    <img src="assets/readme-docs/testing:contact form.png" width=400>
 
 #
 ## Design
@@ -207,10 +207,11 @@ The wireframes can be viewed [here](assets/readme-docs/wireframes.pdf)
 * All pages of the site were tested using the lighthouse function built in to the Google Chrome browser on incognito mode.
   
   <img width="400" src="assets/readme-docs/testing:lighthouse-homepage.png">
-  
+  <br>
   <img width="400" src="assets/readme-docs/testing:lighthouse-gallery.png">
-  
+  <br>
   <img width="400" src="assets/readme-docs/testing:lighthouse-thankyoupage.png">
+<br>
 
 ## Accessibility
 ### **WAVE Webaim Accessibility test report:**
