@@ -33,7 +33,7 @@ This site can be any age group, any gender and any experience level. The site is
 - [WIREFRAMES](#wireframes)
   * [FEATURES](#features)
   * [DESIGN](#design)
-- [TECHNOLOGIES USED](#technologies-used)
+- [LANGUAGES USED](#languages-used)
   * [PROGRAMMES USED](#programmes-used)
 - [TESTING](#testing)
   * [FUTURE FEATURES TO BE IMPLEMENTED](#future-features-to-be-implemented)
