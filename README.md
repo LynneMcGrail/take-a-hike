@@ -36,6 +36,8 @@ This site can be any age group, any gender and any experience level. The site is
 - [TECHNOLOGIES USED](#technologies-used)
   * [PROGRAMMES USED](#programmes-used)
 - [TESTING](#testing)
+  * [FUTURE FEATURES TO BE IMPLEMENTED](#future-features-to-be-implemented)
+  * [DEVICES](#devices)
   * [VALIDATION AND ACCESSIBILITY](#validation-and-accessibility)
   * [LIGHTHOUSE](#lighthouse)
   * [ACCESSIBILITY](#accessibility)
