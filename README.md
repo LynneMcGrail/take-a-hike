@@ -171,7 +171,7 @@ The wireframes can be viewed [here](assets/readme-docs/wireframes.pdf)
 * When building my website, I wanted it the styling to be responsive from desktop screen size to mobile screen size. The responsive media queries guidance used was [W3Schools](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
 
 #
-## Technologies used
+## Languages used
 * [HTML](https://en.wikipedia.org/wiki/HTML5)
 * [CSS](https://en.wikipedia.org/wiki/CSS#CSS_3)
 
@@ -201,7 +201,7 @@ The wireframes can be viewed [here](assets/readme-docs/wireframes.pdf)
 &nbsp;
 
 ## Validation and Accessibility
-#
+
 ## **Lighthouse**
 ### **Lighthouse Report:**
 * All pages of the site were tested using the lighthouse function built in to the Google Chrome browser on incognito mode.
