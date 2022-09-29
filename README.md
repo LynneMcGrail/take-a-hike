@@ -113,7 +113,7 @@ The wireframes can be viewed [here](assets/readme-docs/wireframes.pdf)
     * The navigation bar is fully responsive to allow for various screen sizes. It includes links to maneuver through the site easily with each menu option navigating to it's particular section.<br>
     <img src="assets/readme-docs/testing:navigation-menu.png" width=400><br>
     * On mobile and tablet screen sizes you can see the hamburger menu option appears, highlighting the responsiveness of the site across device sizes<br>
-    * Hamburger navigation menu
+    * Hamburger navigation menu<br>
     <img src="assets/readme-docs/testing:hamburger-menu.png" width=400><br>
     <img src="assets/readme-docs/testing:hamburger-menu-drawer.png" width=200>
 
