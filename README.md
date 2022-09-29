@@ -200,6 +200,30 @@ The wireframes can be viewed [here](assets/readme-docs/wireframes.pdf)
 \
 &nbsp;
 
+### Devices
+I have tested responsiveness and functionality on the following devices and browsers:
+  * Android:
+    * Samsung S20 FE
+    * Samsung A10
+    * Samsung S10
+    * Samsung Galaxy Tab A
+  * Apple:
+    * Ipad mini
+    * Iphone 6s
+    * Iphone XS
+    * Iphone 11
+  * Desktops / laptops:
+    * Macbook Pro 13" Laptop
+    * Dell XPS15 9570 Laptop
+    * HP Pavillion Laptop
+    * Lenovo Thinkpad
+  * Browsers:
+    * Chrome
+    * Edge
+    * Firefox
+    * Safari
+    * Samsung internet
+
 ## Validation and Accessibility
 
 ## **Lighthouse**
