@@ -296,7 +296,7 @@ The following commands were used for version control during project:
 * git status to display the working area to see which changes have been staged and which haven't. 
 
 #
-## HOW TO FORK A REPOSITORY:
+## How to fork a repository:
 
 If you need to "FORK" a repository:
 
@@ -305,7 +305,7 @@ If you need to "FORK" a repository:
 3. The next page will be the forked version of https://github.com/LynneMcGrail/take-a-hike but in your own repository
 
 #
-## HOW TO CLONE A REPOSITORY:
+## How to clone a repository:
 
 If you need to make a clone of this repository:
 
@@ -318,7 +318,7 @@ If you need to make a clone of this repository:
 7. Press `Enter` to create your clone
 
 #
-## HOW TO MAKE A LOCAL CLONE
+## How to make a local clone:
 
 If you need to make a local clone:
 
@@ -353,7 +353,7 @@ If you need to make a local clone:
 
 #
 
-## ACKNOWLEDGEMENTS:
+## Acknowledgements:
 
 - Code institute for the Mentors and Tutors on the course. Especially our Facilitator and Masterclass mentor [Simen Daehlin](https://github.com/Eventyret) and particularly his patience, and help with the use of flexbox, and understanding and correcting the html and css validation error fixes.
 - My Mentor [Jubril Akolade](https://www.linkedin.com/in/jubrillionaire/) for guiding me in the right direction and helping me establish good coding practice. Also for his guidance and advice on developing a more responsive website.
