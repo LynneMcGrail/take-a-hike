@@ -115,6 +115,7 @@ The wireframes can be viewed [here](assets/readme-docs/wireframes.pdf)
     * On mobile and tablet screen sizes you can see the hamburger menu option appears, highlighting the responsiveness of the site across device sizes<br>
     * Hamburger navigation menu<br>
     <img src="assets/readme-docs/testing:hamburger-menu.png" width=400><br>
+    
     <img src="assets/readme-docs/testing:hamburger-menu-drawer.png" width=200>
 
 * Footer:<br>
