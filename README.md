@@ -97,6 +97,7 @@ This site can be any age group, any gender and any experience level. The site is
 
 #
 ## Wireframes 
+
 * I used [Balsamic](https://balsamiq.com/) to develop my wireframes for my website. I initially created the mobile version, and then scalled it up for both tablet and desktop. Because one of my requirement is to give quality information to the user to make them want to engage with the club, a one-page website is used. This guides the user through the content and quickly to the contact form and details via scrolling or directly via the navigation bar.
 
 The wireframes can be viewed [here](assets/readme-docs/wireframes.pdf)
@@ -135,14 +136,14 @@ The wireframes can be viewed [here](assets/readme-docs/wireframes.pdf)
 
 #
 ## Design
-* Color Scheme:
-    * With being a website that is both informative and fun, the color scheme chosen were colourful and bright to reflect nature and being outdoors. Bright background colours were used and then colourful elements to make sections 'pop' on the site to provide an appealing user experience. The colours chosen for the text and images will be clear against the background so that the site is readable. (See hex colours below)
-    * #C9F4F4 - This colour will be used as a background colour for the navigation menu when items are hovered over.
-    * Colour choices explained:
-    * #13FFFF - This colour will be used as a background colour for text sections overlaying images with an appropriate text colour for readability.
-    * #F39D75 - This colour will be used on the contact form for added styling.
-    * #E36D50 - This colour will be used for styling the icons in the footer section 
-    * #282828 - This colour will be used as a text colour and in any styling background where required. I chose a dark charcoal grey so it was readable but not as dark as black for the reader.<br>
+
+### Color Scheme:
+* With this site being both informative and fun, the color scheme I have chosen is colourful and bright to reflect nature and being outdoors. Bright background colours are used and the use of colourful elements to have contrast and make sections 'pop' on the site, which will also provide an appealing user experience. The colours chosen for the text and images will be clear against the background so that the site is readable and accessible to all site users. *(See hex colours below)*
+    + **#C9F4F4** - This colour will be used as a background colour for the navigation menu when items are hovered over.
+    + **#13FFFF** - This colour will be used as a background colour for text sections overlaying images with an appropriate text colour for readability.
+    + **#F39D75** - This colour will be used for styling the icons in the footer section 
+    + **#E36D50** - This colour will be used on the contact form for added styling.
+    + **#282828** - This colour will be used as a text colour and in any styling background where required. I chose a dark charcoal grey so it was readable but not as dark as black for the reader.<br>
     <img src="assets/readme-docs/testing:coolors-palette.png" width=350>
 
 ## Landing Page 
@@ -157,7 +158,7 @@ The wireframes can be viewed [here](assets/readme-docs/wireframes.pdf)
 ## Images
 * I sourced images for the hero image, upcoming events and members gallery from the following sources, Pexels and Unsplash.
 * There are a total of 14 images across the site.
-* All images have been compressed through `Tinypng.com`
+* The images have been compressed through `Tinypng.com`
 * None of the images used have been pushed past the pixel limit in order to prevent image distortion
 
 ## Typography
@@ -189,20 +190,21 @@ The wireframes can be viewed [here](assets/readme-docs/wireframes.pdf)
   * Used for the logo, section titles and social media link icons in the footer of each page. The font awesome script is also linked in the HTML file for these to be visible on the site. 
 
 #
-# Testing
-## Features to be Implemented
+## Testing
+### Future features to be Implemented
 * For the contact form to send a message to Take a Hike, instead of leading to a dummy 'thank-you' page.
 * Display and add links to club sponsors websites.
-* Add a shop for club branded clothing to be purchased.
-* Add a self-guided hiking route feature with downloadable offline maps for members to select and navigate themselves at any time, rather than only being able to join any of the groups upcoming organised hikes and pre set locations.
+* Add a shop for `Take a Hike` branded clothing to be purchased.
+* Add a self-guided hiking route feature with downloadable offline maps for members to select and navigate themselves at any time, rather than only being able to join the groups organised upcoming organised hikes and pre-set locations.
+* Hike blog posts written by club members, including tips and recommendations for other future hikers to enhance their experience. 
 \
 &nbsp;
 
 ## Validation and Accessibility
 #
-## Lighthouse
+## **Lighthouse**
 ### **Lighthouse Report:**
-* All pages of the app were tested using the lighthouse function built in to the Google Chrome browser on incognito mode.
+* All pages of the site were tested using the lighthouse function built in to the Google Chrome browser on incognito mode.
   
   <img width="400" src="assets/readme-docs/testing:lighthouse-homepage.png">
   
@@ -247,32 +249,31 @@ The wireframes can be viewed [here](assets/readme-docs/wireframes.pdf)
 * All images load on each page as intended
 
 #
-# Bugs and errors
-
-## Solved bugs and errors
+## Bugs and errors
+### Solved bugs and errors
 In my opinion, the site has hit the goals required by all users. The site responds nicely across all different screen sizes, the images look clean and sharp on all device sizes, with very little, large blank spaces. It allows the user to navigate around easily and aslo make contact with the club via the contact form or social media icon links. The content is simple and to the point and the site is not overcrowded as to put the user off.
 \
 &nbsp;
 
 I have encountered several issues during testing.
 
-* I initially decided to create the site with a minimum width of 992px as my largest styling, however the site just did not look right so added an x-large screen size.
+* I initially created the site with a minimum width of 992px as my largest styling, however the site just did not look respond correctly, therefore I added an x-large screen size.
 * One of the errors highlighted in the HTML validator was within my 'events' section, I learned from this error that instead of using an ID which I had done initially, using a class worked better and gave me more control over the divs highlighting each upcoming event to the site user. 
-* Originally I had planned one style of navigtaion menu, however on testing my site across different device screen sizes, I implemented a hamburger menu (see code credited below). The hamburger menu works much better across smaller screeen sizes such as mobile and tablet. 
-* I had issues with the navigation menu, when it was styled in the fixed position to allow for the user to scroll on the site whilst maintaining the navigation menu in sight, it overlapped the page content, particularly the landing page image and gallery page images, I fixed this by adjusting the margin-top in the css styling.
-* I created a hover effect within the hamburger menu so the user can see which navigation they are selecting, when hovering over each selection the text turns white which is distinctive in contrast to the background colour. 
-* The hamburger menu initially did not close on selection, however I fixed this bug and it now operates fully opening and closing so that the drawer disappears and the user can navigate the site easily. I removed some navigation elements from the hamburger menu, i.e. when the user is active on the gallery page, the hamburger menu then only shows the Home navigation option. This was because on testing, some of the other links didn't respond so I removed them to avoid non-functional links. I did the same for the thank-you page hamburger navigation links, where the user can navigate to Home or Gallery.
-* The contact form initially did not require a name or email when interacted with. This was a minor error which I fixed, and prompted me to include a thank you page when the user submits a request through the contact form. I also input the use of radio buttons to demonstrate my skills within the contact form section. 
-* On testing the gallery across all device sizes, I noticed the pictures were distorted on a smaller screen and very squished. To fix this, I implemented a column count within the media queries to suit differen screen sizes. This has allowed for easier navigation and enhanced user experience when viewing on smaller devices.
+* Originally I had planned one style of navigtaion menu, however on testing my site across different device screen sizes, I implemented a hamburger menu *(see code credited below)*. The hamburger menu works much better across smaller screeen sizes such as mobile and tablet. 
+* I had issues with the navigation menu, when it was styled in the fixed position to allow for the user to scroll on the site, whilst maintaining the navigation menu in sight, it overlapped the page content, particularly the landing page image and gallery page images, I was able to fix this by adjusting the margin-top in the css styling. Chrome dev tools was particularly helpful in determining what changes needed to be implemented.
+* I created a hover effect within the hamburger menu so the user can see which menu option they are selecting, when hovering over each selection the text turns white, which is distinctive in contrast to the background colour. 
+* The hamburger menu initially did not close on selection, however I fixed this bug, and it now operates fully opening and closing so that the drawer disappears and the user can navigate the site easily. I removed some navigation elements from the hamburger menu, i.e. when the user is active on the gallery page, the hamburger menu then only displays the `Home` navigation option. This was because on testing, some of the other menu links did not respond, so I removed them to avoid dysfunctional links on my site. I did the same on the thank-you page with the hamburger navigation links, where the user can navigate to Home or Gallery through the menu.
+* The contact form initially did not require a name or email when interacted with. This was a minor error which I fixed, and prompted me to include a thank-you page when the user makes contact through the form. I also input the use of radio buttons to demonstrate my skills within the contact form section. 
+* On testing the gallery across all device sizes, I noticed the pictures were distorted on a smaller screen and very squished. To fix this, I implemented a column count within the media queries to suit different screen sizes. This enabled easier navigation and enhanced user experience when viewing the site on smaller devices.
 * I embedded a map as a feature to allow for user control, and for users to be able to interact with the site. Initially the map was displaying incorrectly on mobile devices, a minor error I was able to test and fix within the CSS styling, particularly within the margin, and now the map is responsive across all device screen sizes. 
 * A console error notified me that the favicon was not loading in the live site, this was an error within the relative file path, which was a minor issue and is now working correctly.
 
-## Unsolved bugs and errors
-* There is one occasion where I have used 'floats' in my project, I was unable to control the section to respond the way I had intended it to, by using flexbox. However I have used flexbox successfully elsewhere, and I hope by demonstrating both methods in my project, it highlights the skills that I have learned so far. I know there is still a lot for me to learn, and I hope as I develop my skillset as a Software Developer, that I can streamline some of the methods I have used in this project in my future projects and as eventually as a qualified developer in the coding industry. 
+### Unsolved bugs and errors
+* There is one occasion where I have used 'floats' in my project, I was unable to control the section to respond the way I had intended it to, by using flexbox. However I have used flexbox successfully elsewhere on my site, and I hope by demonstrating both methods in my project, it highlights the skills that I have learned so far. I know there is still a lot for me to learn, and I hope as I develop my skillset as a Software Developer, that I can streamline some of the methods I have used in this project, in my future projects and eventually as a qualified developer in the coding industry. 
 
 #
-# Deployment
-  ## Remote Deployment
+## Deployment
+  ### Remote Deployment
   (Assuming you have already cloned or forked)
 * Following writing the code, then committing and pushing to GitHub, this project was deployed using GitHub through the following the steps:
 
@@ -286,7 +287,7 @@ I have encountered several issues during testing.
 8. Now the website is now live on https://lynnemcgrail.github.io/take-a-hike/
 9. If any changes are required, they can be done, commited and pushed to GitHub and the changes will be updated.
 
-## Git Commands Used
+### Git Commands Used
 The following commands were used for version control during project:
 
 * git add `example filename` - to add files before committing.
@@ -350,7 +351,7 @@ If you need to make a local clone:
 * Responsive media queries guidance was [W3Schools](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
 * The guidance for the `hamburger menu` using CSS code was [unused-css.com](https://unused-css.com/blog/css-only-hamburger-menu/)
 
-# 
+#
 
 ## ACKNOWLEDGEMENTS:
 
