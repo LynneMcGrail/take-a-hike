@@ -426,6 +426,7 @@ a:hover {
     text-transform: uppercase;
     font-size: x-large;
     letter-spacing: 4px;
+    padding-top: 30px;
 }
 
 .events h2 {
