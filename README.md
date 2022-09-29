@@ -256,7 +256,7 @@ In my opinion, the site has hit the goals required by all users. The site respon
 \
 &nbsp;
 
-I have encountered several issues during testing.
+I encountered several issues during testing.
 
 * I initially created the site with a minimum width of 992px as my largest styling, however the site just did not look respond correctly, therefore I added an x-large screen size.
 * One of the errors highlighted in the HTML validator was within my 'events' section, I learned from this error that instead of using an ID which I had done initially, using a class worked better and gave me more control over the divs highlighting each upcoming event to the site user. 
@@ -351,6 +351,7 @@ If you need to make a local clone:
 * The community on slack for feedback, and pointing me to [W3Schools](https://www.w3schools.com/) for more indepth guides to the uses of HTML and CSS. 
 * Responsive media queries guidance was [W3Schools](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
 * The guidance for the `hamburger menu` using CSS code was [unused-css.com](https://unused-css.com/blog/css-only-hamburger-menu/)
+* To embed a responsive Google maps to my site, I found this source [Duda](https://blog.duda.co/responsive-google-maps-for-your-website)
 
 #
 
