@@ -242,10 +242,11 @@ The wireframes can be viewed [here](assets/readme-docs/wireframes.pdf)
   **Thankyou.html:**<br>
   <img width="600" src="assets/readme-docs/HTMLValidator-Thankyou.png">
 
-### **Functionality**
+## Functionality
 * All links have been hovered over and clicked on to ensure accessibility
 * All Social media links work correctly and open in a new tab
 * Pages all load correctly on all device screen sizes
+* Menu's across different device screen sizes worked as intended
 * All images load on each page as intended
 
 #
